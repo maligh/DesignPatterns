@@ -57,9 +57,201 @@
 		1079389B1F3B7529000F287A /* MLDesignPatterns-OC */ = {
 			isa = PBXGroup;
 			children = (
+				107938A31F3B761F000F287A /* AbstractFactory */,
+				107938A41F3B761F000F287A /* Adapter */,
+				107938A51F3B761F000F287A /* Base.lproj */,
+				107938A61F3B761F000F287A /* Bridge */,
+				107938A71F3B761F000F287A /* Builder */,
+				107938A81F3B761F000F287A /* ChainOfResponsibility */,
+				107938A91F3B761F000F287A /* Command */,
+				107938AA1F3B761F000F287A /* Composite */,
+				107938AB1F3B761F000F287A /* Decorator */,
+				107938AC1F3B761F000F287A /* Facade */,
+				107938AD1F3B761F000F287A /* FactoryMethod */,
+				107938AE1F3B761F000F287A /* Flyweight */,
+				107938AF1F3B761F000F287A /* Interpreter */,
+				107938B01F3B761F000F287A /* Iterator */,
+				107938B11F3B761F000F287A /* Mediator */,
+				107938B21F3B761F000F287A /* Memento */,
+				107938B31F3B761F000F287A /* Observer */,
+				107938B41F3B761F000F287A /* Prototype */,
+				107938B51F3B761F000F287A /* Proxy */,
+				107938B61F3B761F000F287A /* Singleton */,
+				107938B71F3B761F000F287A /* State */,
+				107938B81F3B761F000F287A /* Strategy */,
+				107938B91F3B761F000F287A /* TemplateMethod */,
+				107938BA1F3B761F000F287A /* Visitor */,
 				1079389C1F3B7529000F287A /* main.m */,
 			);
 			path = "MLDesignPatterns-OC";
+			sourceTree = "<group>";
+		};
+		107938A31F3B761F000F287A /* AbstractFactory */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AbstractFactory;
+			sourceTree = "<group>";
+		};
+		107938A41F3B761F000F287A /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		107938A51F3B761F000F287A /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		107938A61F3B761F000F287A /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Bridge;
+			sourceTree = "<group>";
+		};
+		107938A71F3B761F000F287A /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		107938A81F3B761F000F287A /* ChainOfResponsibility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ChainOfResponsibility;
+			sourceTree = "<group>";
+		};
+		107938A91F3B761F000F287A /* Command */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Command;
+			sourceTree = "<group>";
+		};
+		107938AA1F3B761F000F287A /* Composite */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Composite;
+			sourceTree = "<group>";
+		};
+		107938AB1F3B761F000F287A /* Decorator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Decorator;
+			sourceTree = "<group>";
+		};
+		107938AC1F3B761F000F287A /* Facade */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Facade;
+			sourceTree = "<group>";
+		};
+		107938AD1F3B761F000F287A /* FactoryMethod */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FactoryMethod;
+			sourceTree = "<group>";
+		};
+		107938AE1F3B761F000F287A /* Flyweight */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Flyweight;
+			sourceTree = "<group>";
+		};
+		107938AF1F3B761F000F287A /* Interpreter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interpreter;
+			sourceTree = "<group>";
+		};
+		107938B01F3B761F000F287A /* Iterator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Iterator;
+			sourceTree = "<group>";
+		};
+		107938B11F3B761F000F287A /* Mediator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mediator;
+			sourceTree = "<group>";
+		};
+		107938B21F3B761F000F287A /* Memento */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Memento;
+			sourceTree = "<group>";
+		};
+		107938B31F3B761F000F287A /* Observer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Observer;
+			sourceTree = "<group>";
+		};
+		107938B41F3B761F000F287A /* Prototype */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Prototype;
+			sourceTree = "<group>";
+		};
+		107938B51F3B761F000F287A /* Proxy */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Proxy;
+			sourceTree = "<group>";
+		};
+		107938B61F3B761F000F287A /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
+		107938B71F3B761F000F287A /* State */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		107938B81F3B761F000F287A /* Strategy */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Strategy;
+			sourceTree = "<group>";
+		};
+		107938B91F3B761F000F287A /* TemplateMethod */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TemplateMethod;
+			sourceTree = "<group>";
+		};
+		107938BA1F3B761F000F287A /* Visitor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Visitor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

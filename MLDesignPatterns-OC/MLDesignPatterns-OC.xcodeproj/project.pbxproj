@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		1079389D1F3B7529000F287A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1079389C1F3B7529000F287A /* main.m */; };
+		109400321F3CC4B70026A0BB /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = 109400311F3CC4B70026A0BB /* Employee.m */; };
+		109400351F3CC62E0026A0BB /* Company.m in Sources */ = {isa = PBXBuildFile; fileRef = 109400341F3CC62E0026A0BB /* Company.m */; };
+		109400381F41DF430026A0BB /* EmployeeDeepCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = 109400371F41DF430026A0BB /* EmployeeDeepCopy.m */; };
+		1094003B1F41DF5A0026A0BB /* EmployeeShallowCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1094003A1F41DF5A0026A0BB /* EmployeeShallowCopy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,14 @@
 /* Begin PBXFileReference section */
 		107938991F3B7529000F287A /* MLDesignPatterns-OC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "MLDesignPatterns-OC"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1079389C1F3B7529000F287A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		109400301F3CC4B70026A0BB /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
+		109400311F3CC4B70026A0BB /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
+		109400331F3CC62E0026A0BB /* Company.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Company.h; sourceTree = "<group>"; };
+		109400341F3CC62E0026A0BB /* Company.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Company.m; sourceTree = "<group>"; };
+		109400361F41DF430026A0BB /* EmployeeDeepCopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmployeeDeepCopy.h; sourceTree = "<group>"; };
+		109400371F41DF430026A0BB /* EmployeeDeepCopy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmployeeDeepCopy.m; sourceTree = "<group>"; };
+		109400391F41DF5A0026A0BB /* EmployeeShallowCopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmployeeShallowCopy.h; sourceTree = "<group>"; };
+		1094003A1F41DF5A0026A0BB /* EmployeeShallowCopy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmployeeShallowCopy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,6 +220,14 @@
 		107938B41F3B761F000F287A /* Prototype */ = {
 			isa = PBXGroup;
 			children = (
+				109400301F3CC4B70026A0BB /* Employee.h */,
+				109400311F3CC4B70026A0BB /* Employee.m */,
+				109400331F3CC62E0026A0BB /* Company.h */,
+				109400341F3CC62E0026A0BB /* Company.m */,
+				109400361F41DF430026A0BB /* EmployeeDeepCopy.h */,
+				109400371F41DF430026A0BB /* EmployeeDeepCopy.m */,
+				109400391F41DF5A0026A0BB /* EmployeeShallowCopy.h */,
+				1094003A1F41DF5A0026A0BB /* EmployeeShallowCopy.m */,
 			);
 			path = Prototype;
 			sourceTree = "<group>";
@@ -312,6 +332,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1079389D1F3B7529000F287A /* main.m in Sources */,
+				109400351F3CC62E0026A0BB /* Company.m in Sources */,
+				109400381F41DF430026A0BB /* EmployeeDeepCopy.m in Sources */,
+				109400321F3CC4B70026A0BB /* Employee.m in Sources */,
+				1094003B1F41DF5A0026A0BB /* EmployeeShallowCopy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +464,7 @@
 				107938A21F3B7529000F287A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

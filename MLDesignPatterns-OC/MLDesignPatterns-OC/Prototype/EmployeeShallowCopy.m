@@ -10,4 +10,13 @@
 
 @implementation EmployeeShallowCopy
 
+- (id)copyWithZone:(NSZone *)zone {
+    Employee *employee = [[Employee allocWithZone:zone] init];
+    employee.name = self.name;
+    employee.age = self.age;
+    employee.department = self.department;
+    employee.company = self.company;
+    return employee;
+}
+
 @end

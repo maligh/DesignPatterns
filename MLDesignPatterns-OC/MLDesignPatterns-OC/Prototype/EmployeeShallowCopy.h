@@ -8,6 +8,9 @@
 
 #import "Employee.h"
 
+/**
+ 雇员浅复制类
+ */
 @interface EmployeeShallowCopy : Employee
 
 @end

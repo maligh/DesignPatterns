@@ -10,4 +10,13 @@
 
 @implementation EmployeeDeepCopy
 
+- (id)copyWithZone:(NSZone *)zone {
+    Employee *employee = [[Employee allocWithZone:zone] init];
+    employee.name = [self.name copy];
+    employee.age = self.age;
+    employee.department = [self.department copy];
+    employee.company = [self.company copy];
+    return employee;
+}
+
 @end

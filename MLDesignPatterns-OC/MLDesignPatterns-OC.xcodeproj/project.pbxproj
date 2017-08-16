@@ -12,6 +12,15 @@
 		109400351F3CC62E0026A0BB /* Company.m in Sources */ = {isa = PBXBuildFile; fileRef = 109400341F3CC62E0026A0BB /* Company.m */; };
 		109400381F41DF430026A0BB /* EmployeeDeepCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = 109400371F41DF430026A0BB /* EmployeeDeepCopy.m */; };
 		1094003B1F41DF5A0026A0BB /* EmployeeShallowCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1094003A1F41DF5A0026A0BB /* EmployeeShallowCopy.m */; };
+		109400481F42025E0026A0BB /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 109400471F42025E0026A0BB /* Singleton.m */; };
+		10D3852E1F4497020095A417 /* Human.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D3852D1F4497020095A417 /* Human.m */; };
+		10D385351F4497120095A417 /* BlackHuman.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D385301F4497120095A417 /* BlackHuman.m */; };
+		10D385361F4497120095A417 /* WhiteHuman.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D385321F4497120095A417 /* WhiteHuman.m */; };
+		10D385371F4497120095A417 /* YellowHuman.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D385341F4497120095A417 /* YellowHuman.m */; };
+		10D3853A1F44971B0095A417 /* NuWa.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D385391F44971B0095A417 /* NuWa.m */; };
+		10D3853D1F4497260095A417 /* WhiteHumanFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D3853C1F4497260095A417 /* WhiteHumanFactory.m */; };
+		10D385401F4497C30095A417 /* YellowHumanFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D3853F1F4497C30095A417 /* YellowHumanFactory.m */; };
+		10D385441F4499330095A417 /* BlackHumanFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D385431F4499330095A417 /* BlackHumanFactory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +46,25 @@
 		109400371F41DF430026A0BB /* EmployeeDeepCopy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmployeeDeepCopy.m; sourceTree = "<group>"; };
 		109400391F41DF5A0026A0BB /* EmployeeShallowCopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmployeeShallowCopy.h; sourceTree = "<group>"; };
 		1094003A1F41DF5A0026A0BB /* EmployeeShallowCopy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmployeeShallowCopy.m; sourceTree = "<group>"; };
+		109400461F42025E0026A0BB /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		109400471F42025E0026A0BB /* Singleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Singleton.m; sourceTree = "<group>"; };
+		10D3852C1F4497020095A417 /* Human.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Human.h; sourceTree = "<group>"; };
+		10D3852D1F4497020095A417 /* Human.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Human.m; sourceTree = "<group>"; };
+		10D3852F1F4497120095A417 /* BlackHuman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlackHuman.h; sourceTree = "<group>"; };
+		10D385301F4497120095A417 /* BlackHuman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlackHuman.m; sourceTree = "<group>"; };
+		10D385311F4497120095A417 /* WhiteHuman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhiteHuman.h; sourceTree = "<group>"; };
+		10D385321F4497120095A417 /* WhiteHuman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhiteHuman.m; sourceTree = "<group>"; };
+		10D385331F4497120095A417 /* YellowHuman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YellowHuman.h; sourceTree = "<group>"; };
+		10D385341F4497120095A417 /* YellowHuman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YellowHuman.m; sourceTree = "<group>"; };
+		10D385381F44971B0095A417 /* NuWa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NuWa.h; sourceTree = "<group>"; };
+		10D385391F44971B0095A417 /* NuWa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NuWa.m; sourceTree = "<group>"; };
+		10D3853B1F4497260095A417 /* WhiteHumanFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhiteHumanFactory.h; sourceTree = "<group>"; };
+		10D3853C1F4497260095A417 /* WhiteHumanFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhiteHumanFactory.m; sourceTree = "<group>"; };
+		10D3853E1F4497C30095A417 /* YellowHumanFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YellowHumanFactory.h; sourceTree = "<group>"; };
+		10D3853F1F4497C30095A417 /* YellowHumanFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YellowHumanFactory.m; sourceTree = "<group>"; };
+		10D385411F4497E10095A417 /* HumanFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HumanFactory.h; sourceTree = "<group>"; };
+		10D385421F4499330095A417 /* BlackHumanFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlackHumanFactory.h; sourceTree = "<group>"; };
+		10D385431F4499330095A417 /* BlackHumanFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlackHumanFactory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +199,23 @@
 		107938AD1F3B761F000F287A /* FactoryMethod */ = {
 			isa = PBXGroup;
 			children = (
+				10D385381F44971B0095A417 /* NuWa.h */,
+				10D385391F44971B0095A417 /* NuWa.m */,
+				10D3852C1F4497020095A417 /* Human.h */,
+				10D3852D1F4497020095A417 /* Human.m */,
+				10D385411F4497E10095A417 /* HumanFactory.h */,
+				10D385311F4497120095A417 /* WhiteHuman.h */,
+				10D385321F4497120095A417 /* WhiteHuman.m */,
+				10D3853B1F4497260095A417 /* WhiteHumanFactory.h */,
+				10D3853C1F4497260095A417 /* WhiteHumanFactory.m */,
+				10D385331F4497120095A417 /* YellowHuman.h */,
+				10D385341F4497120095A417 /* YellowHuman.m */,
+				10D3853E1F4497C30095A417 /* YellowHumanFactory.h */,
+				10D3853F1F4497C30095A417 /* YellowHumanFactory.m */,
+				10D3852F1F4497120095A417 /* BlackHuman.h */,
+				10D385301F4497120095A417 /* BlackHuman.m */,
+				10D385421F4499330095A417 /* BlackHumanFactory.h */,
+				10D385431F4499330095A417 /* BlackHumanFactory.m */,
 			);
 			path = FactoryMethod;
 			sourceTree = "<group>";
@@ -242,6 +287,8 @@
 		107938B61F3B761F000F287A /* Singleton */ = {
 			isa = PBXGroup;
 			children = (
+				109400461F42025E0026A0BB /* Singleton.h */,
+				109400471F42025E0026A0BB /* Singleton.m */,
 			);
 			path = Singleton;
 			sourceTree = "<group>";
@@ -331,11 +378,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10D3852E1F4497020095A417 /* Human.m in Sources */,
 				1079389D1F3B7529000F287A /* main.m in Sources */,
 				109400351F3CC62E0026A0BB /* Company.m in Sources */,
 				109400381F41DF430026A0BB /* EmployeeDeepCopy.m in Sources */,
+				10D385441F4499330095A417 /* BlackHumanFactory.m in Sources */,
+				109400481F42025E0026A0BB /* Singleton.m in Sources */,
+				10D385371F4497120095A417 /* YellowHuman.m in Sources */,
+				10D385351F4497120095A417 /* BlackHuman.m in Sources */,
+				10D385401F4497C30095A417 /* YellowHumanFactory.m in Sources */,
 				109400321F3CC4B70026A0BB /* Employee.m in Sources */,
+				10D3853D1F4497260095A417 /* WhiteHumanFactory.m in Sources */,
 				1094003B1F41DF5A0026A0BB /* EmployeeShallowCopy.m in Sources */,
+				10D3853A1F44971B0095A417 /* NuWa.m in Sources */,
+				10D385361F4497120095A417 /* WhiteHuman.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

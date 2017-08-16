@@ -7,11 +7,21 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "NuWa.h"
+
+void factoryMethod() {
+    [NuWa someMagic];
+}
+
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        
+//    factoryMethod();
+        
+        
     }
     return 0;
 }
+
+

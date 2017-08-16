@@ -10,4 +10,6 @@
 
 @interface NuWa : NSObject
 
++ (void)someMagic;
+
 @end

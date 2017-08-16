@@ -7,7 +7,12 @@
 //
 
 #import "YellowHumanFactory.h"
+#import "YellowHuman.h"
 
 @implementation YellowHumanFactory
+
++ (Human *)createHuman {
+    return [[YellowHuman alloc] init];
+}
 
 @end

@@ -7,8 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Human.h"
+#import "HumanFactory.h"
 
-@interface WhiteHumanFactory : NSObject<HumanFactory>
+@interface WhiteHumanFactory : NSObject <HumanFactory>
 
 @end

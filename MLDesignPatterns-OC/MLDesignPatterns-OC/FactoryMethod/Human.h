@@ -8,13 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@class Human;
-@protocol HumanFactory <NSObject>
-
-- (Human *)createHuman;
-
-@end
-
 @interface Human : NSObject
 
 - (void)talk;

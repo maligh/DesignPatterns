@@ -7,11 +7,11 @@
 //
 
 #import "WhiteHumanFactory.h"
-#import "WhiteHuman.m"
+#import "WhiteHuman.h"
 
 @implementation WhiteHumanFactory
 
-- (Human *)createHuman {
++ (Human *)createHuman {
     return [[WhiteHuman alloc] init];
 }
 

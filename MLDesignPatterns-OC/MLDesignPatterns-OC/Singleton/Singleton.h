@@ -10,4 +10,6 @@
 
 @interface Singleton : NSObject
 
++ (instancetype)sharedInstance;
+
 @end

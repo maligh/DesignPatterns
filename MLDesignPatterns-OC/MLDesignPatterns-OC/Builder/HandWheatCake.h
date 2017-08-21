@@ -10,4 +10,7 @@
 
 @interface HandWheatCake : NSObject
 
+@property (nonatomic, copy) NSString *food;         ///< 配菜
+@property (nonatomic, copy) NSString *condiment;    ///< 调味
+
 @end

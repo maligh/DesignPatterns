@@ -7,7 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "HandWheatCakeBuilder.h"
 
 @interface Seller : NSObject
+
+@property (nonatomic, strong) id<HandWheatCakeBuilder> handWheatCakeBuilder;
+
+- (void)cookFood;
 
 @end

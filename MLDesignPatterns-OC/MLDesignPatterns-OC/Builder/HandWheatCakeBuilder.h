@@ -10,4 +10,7 @@
 
 @protocol HandWheatCakeBuilder <NSObject>
 
+- (void)addFood;
+- (void)addcondiment;
+
 @end

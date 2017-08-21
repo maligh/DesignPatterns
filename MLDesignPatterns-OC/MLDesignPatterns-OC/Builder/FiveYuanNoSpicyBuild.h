@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "HandWheatCakeBuilder.h"
 
-@interface FiveYuanNoSpicyBuild : NSObject
+@interface FiveYuanNoSpicyBuild : NSObject<HandWheatCakeBuilder>
 
 @end

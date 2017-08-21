@@ -10,4 +10,9 @@
 
 @implementation Seller
 
+- (void)cookFood {
+    [self.handWheatCakeBuilder addFood];
+    [self.handWheatCakeBuilder addcondiment];
+}
+
 @end

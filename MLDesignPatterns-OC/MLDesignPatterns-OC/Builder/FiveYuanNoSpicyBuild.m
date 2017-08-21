@@ -10,4 +10,12 @@
 
 @implementation FiveYuanNoSpicyBuild
 
+- (void)addFood {
+    NSLog(@"生菜 + 火腿肠 + 鸡蛋");
+}
+
+- (void)addcondiment {
+    NSLog(@"味精 + 番茄酱");
+}
+
 @end

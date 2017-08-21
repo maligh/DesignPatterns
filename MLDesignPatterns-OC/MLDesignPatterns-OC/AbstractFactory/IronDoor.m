@@ -10,4 +10,8 @@
 
 @implementation IronDoor
 
+- (void)getDescription {
+    NSLog(@"I am a iron door");
+}
+
 @end

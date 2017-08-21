@@ -10,4 +10,6 @@
 
 @interface Door : NSObject
 
+- (void)getDescription;
+
 @end

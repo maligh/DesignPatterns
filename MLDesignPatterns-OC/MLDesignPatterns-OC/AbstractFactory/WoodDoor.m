@@ -10,4 +10,8 @@
 
 @implementation WoodDoor
 
+- (void)getDescription {
+    NSLog(@"I am a wood door");
+}
+
 @end

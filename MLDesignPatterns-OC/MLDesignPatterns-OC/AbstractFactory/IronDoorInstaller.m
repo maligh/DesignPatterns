@@ -10,4 +10,9 @@
 
 @implementation IronDoorInstaller
 
+- (void)getDescription {
+    NSLog(@"I am a iron door installer");
+}
+
+
 @end

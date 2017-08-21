@@ -7,7 +7,17 @@
 //
 
 #import "WoodDoorFactory.h"
+#import "WoodDoor.h"
+#import "WoodDoorInstaller.h"
 
 @implementation WoodDoorFactory
+
++ (Door *)createDoor {
+    return [[WoodDoor alloc] init];
+}
+
++ (DoorInstaller *)createDoorInstall {
+    return [[WoodDoorInstaller alloc] init];
+}
 
 @end

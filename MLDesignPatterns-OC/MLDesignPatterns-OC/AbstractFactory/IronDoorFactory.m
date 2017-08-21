@@ -7,7 +7,17 @@
 //
 
 #import "IronDoorFactory.h"
+#import "IronDoor.h"
+#import "IronDoorInstaller.h"
 
 @implementation IronDoorFactory
+
++ (Door *)createDoor {
+    return [[IronDoor alloc] init];
+}
+
++ (DoorInstaller *)createDoorInstall {
+    return [[IronDoorInstaller alloc] init];
+}
 
 @end

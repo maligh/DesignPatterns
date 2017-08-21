@@ -10,4 +10,6 @@
 
 @interface DoorInstaller : NSObject
 
+- (void)getDescription;
+
 @end

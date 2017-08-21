@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "DoorFactory.h"
 
-@interface IronDoorFactory : NSObject
+@interface IronDoorFactory : NSObject<DoorFactory>
 
 @end

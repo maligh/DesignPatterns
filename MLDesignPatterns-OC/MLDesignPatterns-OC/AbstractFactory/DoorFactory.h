@@ -8,6 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
+@class Door;
+@class DoorInstaller;
+
 @protocol DoorFactory <NSObject>
+
++ (Door *)createDoor;
++ (DoorInstaller *)createDoorInstall;
 
 @end

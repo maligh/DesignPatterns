@@ -10,4 +10,7 @@
 
 @implementation Door
 
+- (void)getDescription {
+}
+
 @end

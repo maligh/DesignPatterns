@@ -10,4 +10,7 @@
 
 @implementation DoorInstaller
 
+- (void)getDescription {
+}
+
 @end

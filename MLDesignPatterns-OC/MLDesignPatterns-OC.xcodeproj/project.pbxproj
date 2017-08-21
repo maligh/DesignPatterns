@@ -21,6 +21,14 @@
 		10D3853D1F4497260095A417 /* WhiteHumanFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D3853C1F4497260095A417 /* WhiteHumanFactory.m */; };
 		10D385401F4497C30095A417 /* YellowHumanFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D3853F1F4497C30095A417 /* YellowHumanFactory.m */; };
 		10D385441F4499330095A417 /* BlackHumanFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D385431F4499330095A417 /* BlackHumanFactory.m */; };
+		10D385C91F4B2DD20095A417 /* WoodDoor.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D385C81F4B2DD20095A417 /* WoodDoor.m */; };
+		10D385CC1F4B2DF80095A417 /* IronDoor.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D385CB1F4B2DF80095A417 /* IronDoor.m */; };
+		10D385D31F4B2E890095A417 /* WoodDoorInstaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D385D21F4B2E890095A417 /* WoodDoorInstaller.m */; };
+		10D385D61F4B2E950095A417 /* IronDoorInstaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D385D51F4B2E950095A417 /* IronDoorInstaller.m */; };
+		10D385DC1F4B32870095A417 /* WoodDoorFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D385DB1F4B32870095A417 /* WoodDoorFactory.m */; };
+		10D385DF1F4B32F70095A417 /* IronDoorFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D385DE1F4B32F70095A417 /* IronDoorFactory.m */; };
+		10D385E21F4B34010095A417 /* Door.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D385E11F4B34010095A417 /* Door.m */; };
+		10D385E51F4B343B0095A417 /* DoorInstaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D385E41F4B343B0095A417 /* DoorInstaller.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -65,6 +73,23 @@
 		10D385411F4497E10095A417 /* HumanFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HumanFactory.h; sourceTree = "<group>"; };
 		10D385421F4499330095A417 /* BlackHumanFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlackHumanFactory.h; sourceTree = "<group>"; };
 		10D385431F4499330095A417 /* BlackHumanFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlackHumanFactory.m; sourceTree = "<group>"; };
+		10D385C71F4B2DD20095A417 /* WoodDoor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WoodDoor.h; sourceTree = "<group>"; };
+		10D385C81F4B2DD20095A417 /* WoodDoor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WoodDoor.m; sourceTree = "<group>"; };
+		10D385CA1F4B2DF80095A417 /* IronDoor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IronDoor.h; sourceTree = "<group>"; };
+		10D385CB1F4B2DF80095A417 /* IronDoor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IronDoor.m; sourceTree = "<group>"; };
+		10D385D11F4B2E890095A417 /* WoodDoorInstaller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WoodDoorInstaller.h; sourceTree = "<group>"; };
+		10D385D21F4B2E890095A417 /* WoodDoorInstaller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WoodDoorInstaller.m; sourceTree = "<group>"; };
+		10D385D41F4B2E950095A417 /* IronDoorInstaller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IronDoorInstaller.h; sourceTree = "<group>"; };
+		10D385D51F4B2E950095A417 /* IronDoorInstaller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IronDoorInstaller.m; sourceTree = "<group>"; };
+		10D385D91F4B324F0095A417 /* DoorFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoorFactory.h; sourceTree = "<group>"; };
+		10D385DA1F4B32870095A417 /* WoodDoorFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WoodDoorFactory.h; sourceTree = "<group>"; };
+		10D385DB1F4B32870095A417 /* WoodDoorFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WoodDoorFactory.m; sourceTree = "<group>"; };
+		10D385DD1F4B32F70095A417 /* IronDoorFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IronDoorFactory.h; sourceTree = "<group>"; };
+		10D385DE1F4B32F70095A417 /* IronDoorFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IronDoorFactory.m; sourceTree = "<group>"; };
+		10D385E01F4B34010095A417 /* Door.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Door.h; sourceTree = "<group>"; };
+		10D385E11F4B34010095A417 /* Door.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Door.m; sourceTree = "<group>"; };
+		10D385E31F4B343B0095A417 /* DoorInstaller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoorInstaller.h; sourceTree = "<group>"; };
+		10D385E41F4B343B0095A417 /* DoorInstaller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoorInstaller.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +154,23 @@
 		107938A31F3B761F000F287A /* AbstractFactory */ = {
 			isa = PBXGroup;
 			children = (
+				10D385E01F4B34010095A417 /* Door.h */,
+				10D385E11F4B34010095A417 /* Door.m */,
+				10D385C71F4B2DD20095A417 /* WoodDoor.h */,
+				10D385C81F4B2DD20095A417 /* WoodDoor.m */,
+				10D385CA1F4B2DF80095A417 /* IronDoor.h */,
+				10D385CB1F4B2DF80095A417 /* IronDoor.m */,
+				10D385E31F4B343B0095A417 /* DoorInstaller.h */,
+				10D385E41F4B343B0095A417 /* DoorInstaller.m */,
+				10D385D11F4B2E890095A417 /* WoodDoorInstaller.h */,
+				10D385D21F4B2E890095A417 /* WoodDoorInstaller.m */,
+				10D385D41F4B2E950095A417 /* IronDoorInstaller.h */,
+				10D385D51F4B2E950095A417 /* IronDoorInstaller.m */,
+				10D385D91F4B324F0095A417 /* DoorFactory.h */,
+				10D385DA1F4B32870095A417 /* WoodDoorFactory.h */,
+				10D385DB1F4B32870095A417 /* WoodDoorFactory.m */,
+				10D385DD1F4B32F70095A417 /* IronDoorFactory.h */,
+				10D385DE1F4B32F70095A417 /* IronDoorFactory.m */,
 			);
 			path = AbstractFactory;
 			sourceTree = "<group>";
@@ -378,20 +420,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10D385DF1F4B32F70095A417 /* IronDoorFactory.m in Sources */,
 				10D3852E1F4497020095A417 /* Human.m in Sources */,
+				10D385CC1F4B2DF80095A417 /* IronDoor.m in Sources */,
 				1079389D1F3B7529000F287A /* main.m in Sources */,
 				109400351F3CC62E0026A0BB /* Company.m in Sources */,
+				10D385D61F4B2E950095A417 /* IronDoorInstaller.m in Sources */,
 				109400381F41DF430026A0BB /* EmployeeDeepCopy.m in Sources */,
 				10D385441F4499330095A417 /* BlackHumanFactory.m in Sources */,
+				10D385E51F4B343B0095A417 /* DoorInstaller.m in Sources */,
 				109400481F42025E0026A0BB /* Singleton.m in Sources */,
 				10D385371F4497120095A417 /* YellowHuman.m in Sources */,
 				10D385351F4497120095A417 /* BlackHuman.m in Sources */,
+				10D385D31F4B2E890095A417 /* WoodDoorInstaller.m in Sources */,
+				10D385C91F4B2DD20095A417 /* WoodDoor.m in Sources */,
 				10D385401F4497C30095A417 /* YellowHumanFactory.m in Sources */,
 				109400321F3CC4B70026A0BB /* Employee.m in Sources */,
 				10D3853D1F4497260095A417 /* WhiteHumanFactory.m in Sources */,
 				1094003B1F41DF5A0026A0BB /* EmployeeShallowCopy.m in Sources */,
+				10D385E21F4B34010095A417 /* Door.m in Sources */,
 				10D3853A1F44971B0095A417 /* NuWa.m in Sources */,
 				10D385361F4497120095A417 /* WhiteHuman.m in Sources */,
+				10D385DC1F4B32870095A417 /* WoodDoorFactory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

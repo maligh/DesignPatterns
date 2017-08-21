@@ -29,6 +29,10 @@
 		10D385DF1F4B32F70095A417 /* IronDoorFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D385DE1F4B32F70095A417 /* IronDoorFactory.m */; };
 		10D385E21F4B34010095A417 /* Door.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D385E11F4B34010095A417 /* Door.m */; };
 		10D385E51F4B343B0095A417 /* DoorInstaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D385E41F4B343B0095A417 /* DoorInstaller.m */; };
+		10D385E81F4B3EA90095A417 /* HandWheatCake.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D385E71F4B3EA90095A417 /* HandWheatCake.m */; };
+		10D385EF1F4B41BF0095A417 /* FiveYuanNoSpicyBuild.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D385EE1F4B41BF0095A417 /* FiveYuanNoSpicyBuild.m */; };
+		10D385F21F4B42BD0095A417 /* TenYuanAbnormalSpicyBuild.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D385F11F4B42BD0095A417 /* TenYuanAbnormalSpicyBuild.m */; };
+		10D385F51F4B43A80095A417 /* Seller.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D385F41F4B43A80095A417 /* Seller.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -90,6 +94,15 @@
 		10D385E11F4B34010095A417 /* Door.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Door.m; sourceTree = "<group>"; };
 		10D385E31F4B343B0095A417 /* DoorInstaller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoorInstaller.h; sourceTree = "<group>"; };
 		10D385E41F4B343B0095A417 /* DoorInstaller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoorInstaller.m; sourceTree = "<group>"; };
+		10D385E61F4B3EA90095A417 /* HandWheatCake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HandWheatCake.h; sourceTree = "<group>"; };
+		10D385E71F4B3EA90095A417 /* HandWheatCake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HandWheatCake.m; sourceTree = "<group>"; };
+		10D385EC1F4B413F0095A417 /* HandWheatCakeBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HandWheatCakeBuilder.h; sourceTree = "<group>"; };
+		10D385ED1F4B41BF0095A417 /* FiveYuanNoSpicyBuild.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiveYuanNoSpicyBuild.h; sourceTree = "<group>"; };
+		10D385EE1F4B41BF0095A417 /* FiveYuanNoSpicyBuild.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FiveYuanNoSpicyBuild.m; sourceTree = "<group>"; };
+		10D385F01F4B42BD0095A417 /* TenYuanAbnormalSpicyBuild.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TenYuanAbnormalSpicyBuild.h; sourceTree = "<group>"; };
+		10D385F11F4B42BD0095A417 /* TenYuanAbnormalSpicyBuild.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TenYuanAbnormalSpicyBuild.m; sourceTree = "<group>"; };
+		10D385F31F4B43A80095A417 /* Seller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Seller.h; sourceTree = "<group>"; };
+		10D385F41F4B43A80095A417 /* Seller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Seller.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,6 +212,15 @@
 		107938A71F3B761F000F287A /* Builder */ = {
 			isa = PBXGroup;
 			children = (
+				10D385E61F4B3EA90095A417 /* HandWheatCake.h */,
+				10D385E71F4B3EA90095A417 /* HandWheatCake.m */,
+				10D385EC1F4B413F0095A417 /* HandWheatCakeBuilder.h */,
+				10D385ED1F4B41BF0095A417 /* FiveYuanNoSpicyBuild.h */,
+				10D385EE1F4B41BF0095A417 /* FiveYuanNoSpicyBuild.m */,
+				10D385F01F4B42BD0095A417 /* TenYuanAbnormalSpicyBuild.h */,
+				10D385F11F4B42BD0095A417 /* TenYuanAbnormalSpicyBuild.m */,
+				10D385F31F4B43A80095A417 /* Seller.h */,
+				10D385F41F4B43A80095A417 /* Seller.m */,
 			);
 			path = Builder;
 			sourceTree = "<group>";
@@ -420,7 +442,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10D385E81F4B3EA90095A417 /* HandWheatCake.m in Sources */,
 				10D385DF1F4B32F70095A417 /* IronDoorFactory.m in Sources */,
+				10D385F51F4B43A80095A417 /* Seller.m in Sources */,
+				10D385F21F4B42BD0095A417 /* TenYuanAbnormalSpicyBuild.m in Sources */,
 				10D3852E1F4497020095A417 /* Human.m in Sources */,
 				10D385CC1F4B2DF80095A417 /* IronDoor.m in Sources */,
 				1079389D1F3B7529000F287A /* main.m in Sources */,
@@ -440,6 +465,7 @@
 				1094003B1F41DF5A0026A0BB /* EmployeeShallowCopy.m in Sources */,
 				10D385E21F4B34010095A417 /* Door.m in Sources */,
 				10D3853A1F44971B0095A417 /* NuWa.m in Sources */,
+				10D385EF1F4B41BF0095A417 /* FiveYuanNoSpicyBuild.m in Sources */,
 				10D385361F4497120095A417 /* WhiteHuman.m in Sources */,
 				10D385DC1F4B32870095A417 /* WoodDoorFactory.m in Sources */,
 			);

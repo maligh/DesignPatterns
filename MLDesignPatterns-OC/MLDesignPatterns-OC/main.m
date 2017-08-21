@@ -12,6 +12,9 @@
 #import "DoorInstaller.h"
 #import "WoodDoorFactory.h"
 #import "IronDoorFactory.h"
+#import "Seller.h"
+#import "FiveYuanNoSpicyBuild.h"
+#import "TenYuanAbnormalSpicyBuild.h"
 
 void factoryMethod() {
     [NuWa someMagic];
@@ -29,13 +32,22 @@ void abstractFactory() {
     [ironDoorInstaller getDescription];
 }
 
-
+void builder() {
+    FiveYuanNoSpicyBuild *fiveBuilder = [[FiveYuanNoSpicyBuild alloc] init];
+    TenYuanAbnormalSpicyBuild *tenBuilder = [[TenYuanAbnormalSpicyBuild alloc] init];
+    Seller *aSeller = [[Seller alloc] init];
+    aSeller.handWheatCakeBuilder = fiveBuilder;
+    [aSeller cookFood];
+    aSeller.handWheatCakeBuilder = tenBuilder;
+    [aSeller cookFood];
+}
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
-//    factoryMethod();
-//    abstractFactory();
+//        factoryMethod();
+//        abstractFactory();
+//        builder();
         
     }
     return 0;

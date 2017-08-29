@@ -19,6 +19,8 @@
 #import "Company.h"
 #import "EmployeeDeepCopy.h"
 #import "EmployeeShallowCopy.h"
+#import "SpeakEnglish.h"
+#import "Translator.h"
 
 void factoryMethod() {
     [NuWa someMagic];
@@ -59,6 +61,13 @@ void prototype() {
     NSLog(@"%@", wangWu.company.name);
 }
 
+void adapter() {
+    SpeakEnglish *SteveJobs = [[SpeakEnglish alloc] init];
+    [SteveJobs englishSpeech];
+    Translator *MrMaTranslator = [[Translator alloc] init];
+    [MrMaTranslator englishSpeech];
+}
+
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
@@ -66,6 +75,7 @@ int main(int argc, const char * argv[]) {
 //        abstractFactory();
 //        builder();
 //        prototype();
+        adapter();
         
     }
     return 0;

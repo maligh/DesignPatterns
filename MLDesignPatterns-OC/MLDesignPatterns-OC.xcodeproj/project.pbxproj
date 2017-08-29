@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		104FB0011F55BE1A00085793 /* SpeakEnglish.m in Sources */ = {isa = PBXBuildFile; fileRef = 104FB0001F55BE1A00085793 /* SpeakEnglish.m */; };
+		104FB0041F55BE2400085793 /* SpeakChinese.m in Sources */ = {isa = PBXBuildFile; fileRef = 104FB0031F55BE2400085793 /* SpeakChinese.m */; };
+		104FB0081F55C07C00085793 /* Translator.m in Sources */ = {isa = PBXBuildFile; fileRef = 104FB0071F55C07C00085793 /* Translator.m */; };
 		1079389D1F3B7529000F287A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1079389C1F3B7529000F287A /* main.m */; };
 		109400321F3CC4B70026A0BB /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = 109400311F3CC4B70026A0BB /* Employee.m */; };
 		109400351F3CC62E0026A0BB /* Company.m in Sources */ = {isa = PBXBuildFile; fileRef = 109400341F3CC62E0026A0BB /* Company.m */; };
@@ -48,6 +51,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		104FAFFF1F55BE1A00085793 /* SpeakEnglish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeakEnglish.h; sourceTree = "<group>"; };
+		104FB0001F55BE1A00085793 /* SpeakEnglish.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeakEnglish.m; sourceTree = "<group>"; };
+		104FB0021F55BE2400085793 /* SpeakChinese.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeakChinese.h; sourceTree = "<group>"; };
+		104FB0031F55BE2400085793 /* SpeakChinese.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeakChinese.m; sourceTree = "<group>"; };
+		104FB0051F55BEC600085793 /* InternationalConference.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InternationalConference.h; sourceTree = "<group>"; };
+		104FB0061F55C07C00085793 /* Translator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Translator.h; sourceTree = "<group>"; };
+		104FB0071F55C07C00085793 /* Translator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Translator.m; sourceTree = "<group>"; };
 		107938991F3B7529000F287A /* MLDesignPatterns-OC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "MLDesignPatterns-OC"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1079389C1F3B7529000F287A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		109400301F3CC4B70026A0BB /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
@@ -191,6 +201,13 @@
 		107938A41F3B761F000F287A /* Adapter */ = {
 			isa = PBXGroup;
 			children = (
+				104FAFFF1F55BE1A00085793 /* SpeakEnglish.h */,
+				104FB0001F55BE1A00085793 /* SpeakEnglish.m */,
+				104FB0021F55BE2400085793 /* SpeakChinese.h */,
+				104FB0031F55BE2400085793 /* SpeakChinese.m */,
+				104FB0051F55BEC600085793 /* InternationalConference.h */,
+				104FB0061F55C07C00085793 /* Translator.h */,
+				104FB0071F55C07C00085793 /* Translator.m */,
 			);
 			path = Adapter;
 			sourceTree = "<group>";
@@ -446,11 +463,14 @@
 				10D385DF1F4B32F70095A417 /* IronDoorFactory.m in Sources */,
 				10D385F51F4B43A80095A417 /* Seller.m in Sources */,
 				10D385F21F4B42BD0095A417 /* TenYuanAbnormalSpicyBuild.m in Sources */,
+				104FB0041F55BE2400085793 /* SpeakChinese.m in Sources */,
 				10D3852E1F4497020095A417 /* Human.m in Sources */,
 				10D385CC1F4B2DF80095A417 /* IronDoor.m in Sources */,
 				1079389D1F3B7529000F287A /* main.m in Sources */,
 				109400351F3CC62E0026A0BB /* Company.m in Sources */,
 				10D385D61F4B2E950095A417 /* IronDoorInstaller.m in Sources */,
+				104FB0011F55BE1A00085793 /* SpeakEnglish.m in Sources */,
+				104FB0081F55C07C00085793 /* Translator.m in Sources */,
 				109400381F41DF430026A0BB /* EmployeeDeepCopy.m in Sources */,
 				10D385441F4499330095A417 /* BlackHumanFactory.m in Sources */,
 				10D385E51F4B343B0095A417 /* DoorInstaller.m in Sources */,

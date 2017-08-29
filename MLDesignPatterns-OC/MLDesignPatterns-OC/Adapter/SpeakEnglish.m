@@ -10,4 +10,8 @@
 
 @implementation SpeakEnglish
 
+- (void)englishSpeech {
+    NSLog(@"I heard that no company is hiring for iOS developer, ba la ba la");
+}
+
 @end

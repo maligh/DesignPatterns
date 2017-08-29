@@ -8,6 +8,14 @@
 
 #import <Foundation/Foundation.h>
 
+/**
+ 国际会议
+ */
 @protocol InternationalConference <NSObject>
+
+/**
+ 英语演讲
+ */
+- (void)englishSpeech;
 
 @end

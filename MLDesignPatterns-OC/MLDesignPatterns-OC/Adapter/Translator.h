@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
-@interface Translator : NSObject
+#import "InternationalConference.h"
+@interface Translator : NSObject <InternationalConference>
 
 @end

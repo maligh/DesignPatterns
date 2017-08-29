@@ -10,4 +10,6 @@
 
 @interface SpeakChinese : NSObject
 
+- (void)chineseSpeech;
+
 @end

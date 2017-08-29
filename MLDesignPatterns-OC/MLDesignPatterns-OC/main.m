@@ -75,7 +75,7 @@ int main(int argc, const char * argv[]) {
 //        abstractFactory();
 //        builder();
 //        prototype();
-        adapter();
+//        adapter();
         
     }
     return 0;

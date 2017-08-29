@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "InternationalConference.h"
 
-@interface SpeakEnglish : NSObject
+@interface SpeakEnglish : NSObject<InternationalConference>
 
 @end

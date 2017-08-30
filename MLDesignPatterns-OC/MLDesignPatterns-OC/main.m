@@ -21,6 +21,10 @@
 #import "EmployeeShallowCopy.h"
 #import "SpeakEnglish.h"
 #import "Translator.h"
+#import "MyModule.h"
+#import "ChatModule.h"
+#import "RedTheme.h"
+#import "BlueTheme.h"
 
 void factoryMethod() {
     [NuWa someMagic];
@@ -68,6 +72,14 @@ void adapter() {
     [MrMaTranslator englishSpeech];
 }
 
+void bridge() {
+    RedTheme *red = [[RedTheme alloc] init];
+    BlueTheme *blue = [[BlueTheme alloc] init];
+    
+    [MyModule moduleDescriptionWithTheme:red];
+    [ChatModule moduleDescriptionWithTheme:blue];
+}
+
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
@@ -76,6 +88,7 @@ int main(int argc, const char * argv[]) {
 //        builder();
 //        prototype();
 //        adapter();
+//        bridge();
         
     }
     return 0;

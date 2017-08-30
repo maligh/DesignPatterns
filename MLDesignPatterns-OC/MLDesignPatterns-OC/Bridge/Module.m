@@ -10,4 +10,12 @@
 
 @implementation Module
 
++ (NSString *)moduleDescription {
+    return @"";
+}
+
++ (void)moduleDescriptionWithTheme:(Theme *)theme {
+}
+
+
 @end

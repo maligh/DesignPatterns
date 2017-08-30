@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Module.h"
 
-@interface MyModule : NSObject
+@interface MyModule : Module
 
 @end

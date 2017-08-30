@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Theme.h"
 
-@interface RedTheme : NSObject
+@interface RedTheme : Theme
 
 @end

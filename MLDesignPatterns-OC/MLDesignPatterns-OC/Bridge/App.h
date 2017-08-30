@@ -10,4 +10,9 @@
 
 @protocol App <NSObject>
 
+/**
+ 模块说明
+ */
++ (NSString *)moduleDescription;
+
 @end

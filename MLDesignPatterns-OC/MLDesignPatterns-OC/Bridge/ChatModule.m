@@ -7,7 +7,16 @@
 //
 
 #import "ChatModule.h"
+#import "Theme.h"
 
 @implementation ChatModule
+
++ (NSString *)moduleDescription {
+    return @"聊天模块";
+}
+
++ (void)moduleDescriptionWithTheme:(Theme *)theme {
+     NSLog(@"%@-%@", [ChatModule moduleDescription], [theme getColor]);
+}
 
 @end

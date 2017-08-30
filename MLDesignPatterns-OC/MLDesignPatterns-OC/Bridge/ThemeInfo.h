@@ -10,6 +10,6 @@
 
 @protocol ThemeInfo <NSObject>
 
-- (void)getColor;
+- (NSString *)getColor;
 
 @end

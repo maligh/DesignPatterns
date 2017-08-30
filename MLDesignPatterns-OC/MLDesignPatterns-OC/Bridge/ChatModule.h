@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Module.h"
 
-@interface ChatModule : NSObject
+@interface ChatModule : Module
 
 @end

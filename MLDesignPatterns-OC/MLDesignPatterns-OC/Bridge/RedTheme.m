@@ -10,4 +10,8 @@
 
 @implementation RedTheme
 
+- (NSString *)getColor {
+    return @"red";
+}
+
 @end

@@ -7,7 +7,16 @@
 //
 
 #import "MyModule.h"
+#import "Theme.h"
 
 @implementation MyModule
+
++ (NSString *)moduleDescription {
+    return @"我的模块";
+}
+
++ (void)moduleDescriptionWithTheme:(Theme *)theme {
+    NSLog(@"%@-%@", [MyModule moduleDescription], [theme getColor]);
+}
 
 @end

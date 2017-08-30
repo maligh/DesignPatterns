@@ -7,7 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "App.h"
 
-@interface Module : NSObject
+@class Theme;
+@interface Module : NSObject<App>
+
++ (void)moduleDescriptionWithTheme:(Theme *)theme;
 
 @end

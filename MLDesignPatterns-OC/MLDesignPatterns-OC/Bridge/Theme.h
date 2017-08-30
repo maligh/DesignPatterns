@@ -7,7 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "ThemeInfo.h"
 
-@interface Theme : NSObject
+@interface Theme : NSObject<ThemeInfo>
+
 
 @end

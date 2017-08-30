@@ -10,4 +10,7 @@
 
 @implementation Theme
 
+- (void)getColor {
+}
+
 @end

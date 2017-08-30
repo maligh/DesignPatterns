@@ -10,4 +10,8 @@
 
 @implementation BlueTheme
 
+- (NSString *)getColor {
+    return @"blue";
+}
+
 @end

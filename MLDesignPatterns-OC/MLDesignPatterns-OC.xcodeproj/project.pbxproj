@@ -16,6 +16,9 @@
 		104FB0191F55CC8700085793 /* BlueTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 104FB0181F55CC8700085793 /* BlueTheme.m */; };
 		104FB01C1F55CDC200085793 /* Module.m in Sources */ = {isa = PBXBuildFile; fileRef = 104FB01B1F55CDC200085793 /* Module.m */; };
 		104FB0211F55CF1300085793 /* Theme.m in Sources */ = {isa = PBXBuildFile; fileRef = 104FB0201F55CF1300085793 /* Theme.m */; };
+		104FB0241F599A2F00085793 /* HouseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 104FB0231F599A2F00085793 /* HouseManager.m */; };
+		104FB0271F599A3900085793 /* Light.m in Sources */ = {isa = PBXBuildFile; fileRef = 104FB0261F599A3900085793 /* Light.m */; };
+		104FB02A1F599A6000085793 /* Curtain.m in Sources */ = {isa = PBXBuildFile; fileRef = 104FB0291F599A6000085793 /* Curtain.m */; };
 		1079389D1F3B7529000F287A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1079389C1F3B7529000F287A /* main.m */; };
 		109400321F3CC4B70026A0BB /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = 109400311F3CC4B70026A0BB /* Employee.m */; };
 		109400351F3CC62E0026A0BB /* Company.m in Sources */ = {isa = PBXBuildFile; fileRef = 109400341F3CC62E0026A0BB /* Company.m */; };
@@ -82,6 +85,12 @@
 		104FB01B1F55CDC200085793 /* Module.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Module.m; sourceTree = "<group>"; };
 		104FB01F1F55CF1300085793 /* Theme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Theme.h; sourceTree = "<group>"; };
 		104FB0201F55CF1300085793 /* Theme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Theme.m; sourceTree = "<group>"; };
+		104FB0221F599A2F00085793 /* HouseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HouseManager.h; sourceTree = "<group>"; };
+		104FB0231F599A2F00085793 /* HouseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HouseManager.m; sourceTree = "<group>"; };
+		104FB0251F599A3900085793 /* Light.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Light.h; sourceTree = "<group>"; };
+		104FB0261F599A3900085793 /* Light.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Light.m; sourceTree = "<group>"; };
+		104FB0281F599A6000085793 /* Curtain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Curtain.h; sourceTree = "<group>"; };
+		104FB0291F599A6000085793 /* Curtain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Curtain.m; sourceTree = "<group>"; };
 		107938991F3B7529000F287A /* MLDesignPatterns-OC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "MLDesignPatterns-OC"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1079389C1F3B7529000F287A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		109400301F3CC4B70026A0BB /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
@@ -321,6 +330,12 @@
 		107938AC1F3B761F000F287A /* Facade */ = {
 			isa = PBXGroup;
 			children = (
+				104FB0221F599A2F00085793 /* HouseManager.h */,
+				104FB0231F599A2F00085793 /* HouseManager.m */,
+				104FB0251F599A3900085793 /* Light.h */,
+				104FB0261F599A3900085793 /* Light.m */,
+				104FB0281F599A6000085793 /* Curtain.h */,
+				104FB0291F599A6000085793 /* Curtain.m */,
 			);
 			path = Facade;
 			sourceTree = "<group>";
@@ -521,8 +536,11 @@
 				109400351F3CC62E0026A0BB /* Company.m in Sources */,
 				10D385D61F4B2E950095A417 /* IronDoorInstaller.m in Sources */,
 				104FB0011F55BE1A00085793 /* SpeakEnglish.m in Sources */,
+				104FB0271F599A3900085793 /* Light.m in Sources */,
 				104FB0081F55C07C00085793 /* Translator.m in Sources */,
+				104FB02A1F599A6000085793 /* Curtain.m in Sources */,
 				109400381F41DF430026A0BB /* EmployeeDeepCopy.m in Sources */,
+				104FB0241F599A2F00085793 /* HouseManager.m in Sources */,
 				10D385441F4499330095A417 /* BlackHumanFactory.m in Sources */,
 				10D385E51F4B343B0095A417 /* DoorInstaller.m in Sources */,
 				109400481F42025E0026A0BB /* Singleton.m in Sources */,

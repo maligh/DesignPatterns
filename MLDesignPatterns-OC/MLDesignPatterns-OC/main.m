@@ -28,6 +28,7 @@
 #import "Folder.h"
 #import "HeaderFile.h"
 #import "ImplementationFile.h"
+#import "HouseManager.h"
 
 void factoryMethod() {
     [NuWa someMagic];
@@ -110,6 +111,14 @@ void composite() {
     [folder displayWithHierarchy:0];
 }
 
+void facede() {
+    HouseManager *manager = [[HouseManager alloc] init];
+    NSLog(@"--------------- 准备睡觉了 ---------------");
+    [manager sleep];
+    NSLog(@"--------------- 准备起床了 ---------------");
+    [manager getUp];
+}
+
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
@@ -120,6 +129,7 @@ int main(int argc, const char * argv[]) {
 //        adapter();
 //        bridge();
 //        composite();
+//        facede();
     }
     return 0;
 }

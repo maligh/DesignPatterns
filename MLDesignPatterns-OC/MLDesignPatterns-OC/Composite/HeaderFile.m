@@ -10,4 +10,13 @@
 
 @implementation HeaderFile
 
+- (void)displayWithHierarchy:(NSUInteger)hierarchy {
+    
+    NSMutableString *prefix = [[NSMutableString alloc] initWithString:@""];
+    while (hierarchy--) {
+        [prefix appendString:@"-"];
+    }
+    NSLog(@"%@头文件:%@.h", prefix, self.name);
+}
+
 @end

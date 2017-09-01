@@ -10,4 +10,6 @@
 
 @protocol FileSystem <NSObject>
 
+- (void)displayWithHierarchy:(NSUInteger)hierarchy;
+
 @end

@@ -7,7 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "FileSystem.h"
 
-@interface Folder : NSObject
+@interface Folder : NSObject<FileSystem>
+
+@property (nonatomic, copy, readonly) NSString *name;
+@property (nonatomic, strong, readonly) NSMutableArray *filesArray;
+
+- (instancetype)initWithName:(NSString *)name;
+- (void)addFile:(id <FileSystem>)file;
 
 @end

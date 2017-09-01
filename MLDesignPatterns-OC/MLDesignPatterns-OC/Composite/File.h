@@ -7,7 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "FileSystem.h"
 
-@interface File : NSObject
+@interface File : NSObject<FileSystem>
+
+@property (nonatomic, copy, readonly) NSString *name;
+
+- (instancetype)initWithName:(NSString *)name;
 
 @end

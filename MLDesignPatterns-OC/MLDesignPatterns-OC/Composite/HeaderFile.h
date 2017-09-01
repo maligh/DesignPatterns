@@ -7,7 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "FileSystem.h"
+#import "File.h"
 
-@interface HeaderFile : NSObject
+@interface HeaderFile : File
 
 @end

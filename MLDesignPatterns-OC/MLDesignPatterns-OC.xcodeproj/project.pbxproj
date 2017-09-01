@@ -167,7 +167,6 @@
 			children = (
 				107938A31F3B761F000F287A /* AbstractFactory */,
 				107938A41F3B761F000F287A /* Adapter */,
-				107938A51F3B761F000F287A /* Base.lproj */,
 				107938A61F3B761F000F287A /* Bridge */,
 				107938A71F3B761F000F287A /* Builder */,
 				107938A81F3B761F000F287A /* ChainOfResponsibility */,
@@ -230,13 +229,6 @@
 				104FB0071F55C07C00085793 /* Translator.m */,
 			);
 			path = Adapter;
-			sourceTree = "<group>";
-		};
-		107938A51F3B761F000F287A /* Base.lproj */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Base.lproj;
 			sourceTree = "<group>";
 		};
 		107938A61F3B761F000F287A /* Bridge */ = {

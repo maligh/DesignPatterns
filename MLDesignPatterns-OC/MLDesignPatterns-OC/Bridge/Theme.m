@@ -10,7 +10,8 @@
 
 @implementation Theme
 
-- (void)getColor {
+- (NSString *)getColor {
+    return @"";
 }
 
 @end

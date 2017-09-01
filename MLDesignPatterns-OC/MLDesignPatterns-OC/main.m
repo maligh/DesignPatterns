@@ -88,7 +88,7 @@ int main(int argc, const char * argv[]) {
 //        builder();
 //        prototype();
 //        adapter();
-//        bridge();
+        bridge();
         
     }
     return 0;

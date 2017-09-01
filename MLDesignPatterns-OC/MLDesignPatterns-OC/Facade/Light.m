@@ -10,4 +10,12 @@
 
 @implementation Light
 
++ (void)on {
+    NSLog(@"开灯了");
+}
+
++ (void)off {
+    NSLog(@"关灯了");
+}
+
 @end

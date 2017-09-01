@@ -10,4 +10,8 @@
 
 @interface HouseManager : NSObject
 
+- (void)sleep;
+
+- (void)getUp;
+
 @end

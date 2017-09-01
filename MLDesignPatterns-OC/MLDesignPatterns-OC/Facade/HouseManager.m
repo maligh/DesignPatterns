@@ -7,7 +7,19 @@
 //
 
 #import "HouseManager.h"
+#import "Light.h"
+#import "Curtain.h"
 
 @implementation HouseManager
+
+- (void)sleep {
+    [Curtain down];
+    [Light off];
+}
+
+- (void)getUp {
+    [Light on];
+    [Curtain up];
+}
 
 @end

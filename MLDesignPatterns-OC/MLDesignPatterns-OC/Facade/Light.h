@@ -10,4 +10,7 @@
 
 @interface Light : NSObject
 
++ (void)on;
++ (void)off;
+
 @end

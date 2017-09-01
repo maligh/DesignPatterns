@@ -10,4 +10,7 @@
 
 @interface Curtain : NSObject
 
++ (void)up;
++ (void)down;
+
 @end

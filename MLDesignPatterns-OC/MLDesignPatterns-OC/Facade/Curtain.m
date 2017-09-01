@@ -10,4 +10,12 @@
 
 @implementation Curtain
 
++ (void)up {
+    NSLog(@"已经打开了窗帘");
+}
+
++ (void)down {
+    NSLog(@"已经拉上了窗帘");
+}
+
 @end

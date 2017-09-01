@@ -25,6 +25,9 @@
 #import "ChatModule.h"
 #import "RedTheme.h"
 #import "BlueTheme.h"
+#import "Folder.h"
+#import "HeaderFile.h"
+#import "ImplementationFile.h"
 
 void factoryMethod() {
     [NuWa someMagic];
@@ -80,6 +83,33 @@ void bridge() {
     [ChatModule moduleDescriptionWithTheme:blue];
 }
 
+void composite() {
+    Folder *folder = [[Folder alloc] initWithName:@"MLDesignPatterns-OC"];
+    Folder *compositefolder = [[Folder alloc] initWithName:@"Composite"];
+    [folder addFile:compositefolder];
+    ImplementationFile *mainFile = [[ImplementationFile alloc] initWithName:@"main"];
+    [folder addFile:mainFile];
+    HeaderFile *fileHeaderFile = [[HeaderFile alloc] initWithName:@"File"];
+    ImplementationFile *fileImplementationFile = [[ImplementationFile alloc] initWithName:@"File"];
+    HeaderFile *fileSystemHeaderFile = [[HeaderFile alloc] initWithName:@"FileSystem"];
+    HeaderFile *folderHeaderFile = [[HeaderFile alloc] initWithName:@"Folder"];
+    ImplementationFile *folderImplementationFile = [[ImplementationFile alloc] initWithName:@"Folder"];
+    HeaderFile *headerFileHeaderFile = [[HeaderFile alloc] initWithName:@"HeaderFile"];
+    ImplementationFile *headerFileImplementationFile = [[ImplementationFile alloc] initWithName:@"HeaderFile"];
+    HeaderFile *implementationFileHeaderFile = [[HeaderFile alloc] initWithName:@"ImplementationFile"];
+    ImplementationFile *implementationFileImplementationFile = [[ImplementationFile alloc] initWithName:@"ImplementationFile"];
+    [compositefolder addFile:fileHeaderFile];
+    [compositefolder addFile:fileImplementationFile];
+    [compositefolder addFile:fileSystemHeaderFile];
+    [compositefolder addFile:folderHeaderFile];
+    [compositefolder addFile:folderImplementationFile];
+    [compositefolder addFile:headerFileHeaderFile];
+    [compositefolder addFile:headerFileImplementationFile];
+    [compositefolder addFile:implementationFileHeaderFile];
+    [compositefolder addFile:implementationFileImplementationFile];
+    [folder displayWithHierarchy:0];
+}
+
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
@@ -88,8 +118,8 @@ int main(int argc, const char * argv[]) {
 //        builder();
 //        prototype();
 //        adapter();
-        bridge();
-        
+//        bridge();
+//        composite();
     }
     return 0;
 }

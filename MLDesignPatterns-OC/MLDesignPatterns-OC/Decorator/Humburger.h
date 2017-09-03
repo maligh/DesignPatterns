@@ -10,4 +10,7 @@
 
 @protocol Humburger <NSObject>
 
+- (NSString *)getDescription;
+- (NSInteger)getCost;
+
 @end

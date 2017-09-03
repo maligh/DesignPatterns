@@ -7,7 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "ChickenBurger.h"
+#import "Humburger.h"
 
-@interface Condiment : NSObject
+@interface Condiment : NSObject<Humburger>
+
+@property (nonatomic, strong, readonly) ChickenBurger *burger;
+
+- (instancetype)initWithChickenBurger:(id<Humburger>)burger;
 
 @end

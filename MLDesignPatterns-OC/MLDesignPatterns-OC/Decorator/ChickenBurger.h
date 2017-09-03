@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Humburger.h"
 
-@interface ChickenBurger : NSObject
+@interface ChickenBurger : NSObject<Humburger>
 
 @end

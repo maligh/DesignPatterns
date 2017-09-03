@@ -10,4 +10,11 @@
 
 @implementation Chilli
 
+- (NSString *)getDescription {
+    return [NSString stringWithFormat:@"%@+辣椒粉", [self.burger getDescription]];
+}
+- (NSInteger)getCost {
+    return [self.burger getCost] + 1;
+}
+
 @end

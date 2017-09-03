@@ -10,4 +10,18 @@
 
 @implementation Condiment
 
+- (instancetype)initWithChickenBurger:(id<Humburger>)burger {
+    if (self = [super init]) {
+        _burger = burger;
+    }
+    return self;
+}
+
+- (NSString *)getDescription {
+    return @"";
+}
+- (NSInteger)getCost {
+    return 0;
+}
+
 @end

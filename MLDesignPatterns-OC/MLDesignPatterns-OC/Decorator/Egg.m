@@ -10,4 +10,11 @@
 
 @implementation Egg
 
+- (NSString *)getDescription {
+    return [NSString stringWithFormat:@"%@+煎蛋", [self.burger getDescription]];
+}
+- (NSInteger)getCost {
+    return [self.burger getCost] + 2;
+}
+
 @end

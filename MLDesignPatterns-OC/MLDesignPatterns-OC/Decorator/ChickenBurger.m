@@ -10,4 +10,11 @@
 
 @implementation ChickenBurger
 
+- (NSString *)getDescription {
+    return @"鸡肉堡";
+}
+- (NSInteger)getCost {
+    return 10;
+}
+
 @end

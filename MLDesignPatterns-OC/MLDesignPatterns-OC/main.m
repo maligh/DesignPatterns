@@ -29,6 +29,9 @@
 #import "HeaderFile.h"
 #import "ImplementationFile.h"
 #import "HouseManager.h"
+#import "ChickenBurger.h"
+#import "Chilli.h"
+#import "Egg.h"
 
 void factoryMethod() {
     [NuWa someMagic];
@@ -84,6 +87,17 @@ void bridge() {
     [ChatModule moduleDescriptionWithTheme:blue];
 }
 
+void decorator() {
+    ChickenBurger *chickenBurger = [[ChickenBurger alloc] init];
+    NSLog(@"%@-花费：%ld", [chickenBurger getDescription], [chickenBurger getCost]);
+    Chilli *chilliBurger = [[Chilli alloc] initWithChickenBurger:chickenBurger];
+    NSLog(@"%@-花费：%ld", [chilliBurger getDescription], [chilliBurger getCost]);
+    Egg *eggBurger = [[Egg alloc] initWithChickenBurger:chickenBurger];
+    NSLog(@"%@-花费：%ld", [eggBurger getDescription], [eggBurger getCost]);
+    Egg *eggChilliBurger = [[Egg alloc] initWithChickenBurger:chilliBurger];
+    NSLog(@"%@-花费：%ld", [eggChilliBurger getDescription], [eggChilliBurger getCost]);
+}
+
 void composite() {
     Folder *folder = [[Folder alloc] initWithName:@"MLDesignPatterns-OC"];
     Folder *compositefolder = [[Folder alloc] initWithName:@"Composite"];
@@ -119,6 +133,7 @@ void facede() {
     [manager getUp];
 }
 
+
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
@@ -128,6 +143,7 @@ int main(int argc, const char * argv[]) {
 //        prototype();
 //        adapter();
 //        bridge();
+//        decorator();
 //        composite();
 //        facede();
     }

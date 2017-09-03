@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		104D30E61F5C5CC30092D139 /* ChickenBurger.m in Sources */ = {isa = PBXBuildFile; fileRef = 104D30E51F5C5CC30092D139 /* ChickenBurger.m */; };
+		104D30E91F5C5DA60092D139 /* Condiment.m in Sources */ = {isa = PBXBuildFile; fileRef = 104D30E81F5C5DA60092D139 /* Condiment.m */; };
+		104D30EC1F5C5E290092D139 /* Chilli.m in Sources */ = {isa = PBXBuildFile; fileRef = 104D30EB1F5C5E290092D139 /* Chilli.m */; };
+		104D30EF1F5C5FB00092D139 /* Egg.m in Sources */ = {isa = PBXBuildFile; fileRef = 104D30EE1F5C5FB00092D139 /* Egg.m */; };
 		104FB0011F55BE1A00085793 /* SpeakEnglish.m in Sources */ = {isa = PBXBuildFile; fileRef = 104FB0001F55BE1A00085793 /* SpeakEnglish.m */; };
 		104FB0041F55BE2400085793 /* SpeakChinese.m in Sources */ = {isa = PBXBuildFile; fileRef = 104FB0031F55BE2400085793 /* SpeakChinese.m */; };
 		104FB0081F55C07C00085793 /* Translator.m in Sources */ = {isa = PBXBuildFile; fileRef = 104FB0071F55C07C00085793 /* Translator.m */; };
@@ -64,6 +68,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		104D30E31F5C5C740092D139 /* Humburger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Humburger.h; sourceTree = "<group>"; };
+		104D30E41F5C5CC30092D139 /* ChickenBurger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChickenBurger.h; sourceTree = "<group>"; };
+		104D30E51F5C5CC30092D139 /* ChickenBurger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChickenBurger.m; sourceTree = "<group>"; };
+		104D30E71F5C5DA60092D139 /* Condiment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Condiment.h; sourceTree = "<group>"; };
+		104D30E81F5C5DA60092D139 /* Condiment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Condiment.m; sourceTree = "<group>"; };
+		104D30EA1F5C5E290092D139 /* Chilli.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chilli.h; sourceTree = "<group>"; };
+		104D30EB1F5C5E290092D139 /* Chilli.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chilli.m; sourceTree = "<group>"; };
+		104D30ED1F5C5FB00092D139 /* Egg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Egg.h; sourceTree = "<group>"; };
+		104D30EE1F5C5FB00092D139 /* Egg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Egg.m; sourceTree = "<group>"; };
 		104FAFFF1F55BE1A00085793 /* SpeakEnglish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeakEnglish.h; sourceTree = "<group>"; };
 		104FB0001F55BE1A00085793 /* SpeakEnglish.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeakEnglish.m; sourceTree = "<group>"; };
 		104FB0021F55BE2400085793 /* SpeakChinese.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeakChinese.h; sourceTree = "<group>"; };
@@ -323,6 +336,15 @@
 		107938AB1F3B761F000F287A /* Decorator */ = {
 			isa = PBXGroup;
 			children = (
+				104D30E31F5C5C740092D139 /* Humburger.h */,
+				104D30E41F5C5CC30092D139 /* ChickenBurger.h */,
+				104D30E51F5C5CC30092D139 /* ChickenBurger.m */,
+				104D30E71F5C5DA60092D139 /* Condiment.h */,
+				104D30E81F5C5DA60092D139 /* Condiment.m */,
+				104D30EA1F5C5E290092D139 /* Chilli.h */,
+				104D30EB1F5C5E290092D139 /* Chilli.m */,
+				104D30ED1F5C5FB00092D139 /* Egg.h */,
+				104D30EE1F5C5FB00092D139 /* Egg.m */,
 			);
 			path = Decorator;
 			sourceTree = "<group>";
@@ -539,8 +561,10 @@
 				104FB0271F599A3900085793 /* Light.m in Sources */,
 				104FB0081F55C07C00085793 /* Translator.m in Sources */,
 				104FB02A1F599A6000085793 /* Curtain.m in Sources */,
+				104D30EF1F5C5FB00092D139 /* Egg.m in Sources */,
 				109400381F41DF430026A0BB /* EmployeeDeepCopy.m in Sources */,
 				104FB0241F599A2F00085793 /* HouseManager.m in Sources */,
+				104D30E91F5C5DA60092D139 /* Condiment.m in Sources */,
 				10D385441F4499330095A417 /* BlackHumanFactory.m in Sources */,
 				10D385E51F4B343B0095A417 /* DoorInstaller.m in Sources */,
 				109400481F42025E0026A0BB /* Singleton.m in Sources */,
@@ -558,12 +582,14 @@
 				2473BFFF1F592A120018E4A3 /* HeaderFile.m in Sources */,
 				10D3853D1F4497260095A417 /* WhiteHumanFactory.m in Sources */,
 				104FB0211F55CF1300085793 /* Theme.m in Sources */,
+				104D30E61F5C5CC30092D139 /* ChickenBurger.m in Sources */,
 				1094003B1F41DF5A0026A0BB /* EmployeeShallowCopy.m in Sources */,
 				10D385E21F4B34010095A417 /* Door.m in Sources */,
 				10D3853A1F44971B0095A417 /* NuWa.m in Sources */,
 				10D385EF1F4B41BF0095A417 /* FiveYuanNoSpicyBuild.m in Sources */,
 				10D385361F4497120095A417 /* WhiteHuman.m in Sources */,
 				10D385DC1F4B32870095A417 /* WoodDoorFactory.m in Sources */,
+				104D30EC1F5C5E290092D139 /* Chilli.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

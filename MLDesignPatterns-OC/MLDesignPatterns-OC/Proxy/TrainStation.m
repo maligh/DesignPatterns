@@ -10,4 +10,8 @@
 
 @implementation TrainStation
 
+- (void)sell {
+    NSLog(@"火车票已经成功卖出");
+}
+
 @end

@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Ticket.h"
 
-@interface TicketOutlets : NSObject
+@interface TicketOutlets : NSObject<Ticket>
 
 @end

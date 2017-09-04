@@ -10,4 +10,6 @@
 
 @protocol Ticket <NSObject>
 
+- (void)sell;
+
 @end

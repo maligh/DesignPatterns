@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Ticket.h"
 
-@interface TrainStation : NSObject
+@interface TrainStation : NSObject<Ticket>
 
 @end

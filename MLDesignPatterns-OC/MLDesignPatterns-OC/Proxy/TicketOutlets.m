@@ -7,7 +7,26 @@
 //
 
 #import "TicketOutlets.h"
+#import "TrainStation.h"
+
+@interface TicketOutlets()
+
+@property (nonatomic, strong) TrainStation *trainStain;
+
+@end
 
 @implementation TicketOutlets
+
+- (instancetype)init {
+    if (self = [super init]) {
+        _trainStain = [[TrainStation alloc] init];
+    }
+    return self;
+}
+
+- (void)sell {
+    NSLog(@"收取代售手续费5元");
+    [_trainStain sell];
+}
 
 @end

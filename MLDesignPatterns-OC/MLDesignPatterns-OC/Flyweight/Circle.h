@@ -7,7 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Shape.h"
 
-@interface Circle : NSObject
+@interface Circle : NSObject<Shape>
+
+- (instancetype)initWithColorString:(NSString *)colorString;
 
 @end

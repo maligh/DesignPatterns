@@ -10,4 +10,6 @@
 
 @protocol Shape <NSObject>
 
+- (void)draw;
+
 @end

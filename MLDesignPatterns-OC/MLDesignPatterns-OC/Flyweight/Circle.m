@@ -8,6 +8,23 @@
 
 #import "Circle.h"
 
+@interface Circle()
+
+@property (nonatomic, copy) NSString *colorString;
+
+@end
+
 @implementation Circle
+
+- (instancetype)initWithColorString:(NSString *)colorString {
+    if (self = [super init]) {
+        _colorString = colorString;
+    }
+    return self;
+}
+
+- (void)draw {
+    NSLog(@"画了一个%@的圆形", _colorString);
+}
 
 @end

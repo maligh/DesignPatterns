@@ -7,7 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Circle.h"
 
 @interface FlyweightFactory : NSObject
+
+- (Circle *)createCircleWithColorString:(NSString *)colorString;
+
+- (void)getCount;
 
 @end

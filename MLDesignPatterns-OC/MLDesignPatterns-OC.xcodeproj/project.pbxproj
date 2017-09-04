@@ -13,6 +13,8 @@
 		104D30EF1F5C5FB00092D139 /* Egg.m in Sources */ = {isa = PBXBuildFile; fileRef = 104D30EE1F5C5FB00092D139 /* Egg.m */; };
 		104D30F31F5DB1010092D139 /* Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = 104D30F21F5DB1010092D139 /* Circle.m */; };
 		104D30F61F5DB19F0092D139 /* FlyweightFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 104D30F51F5DB19F0092D139 /* FlyweightFactory.m */; };
+		104D30FA1F5DBAB70092D139 /* TrainStation.m in Sources */ = {isa = PBXBuildFile; fileRef = 104D30F91F5DBAB70092D139 /* TrainStation.m */; };
+		104D30FD1F5DBAF90092D139 /* TicketOutlets.m in Sources */ = {isa = PBXBuildFile; fileRef = 104D30FC1F5DBAF90092D139 /* TicketOutlets.m */; };
 		104FB0011F55BE1A00085793 /* SpeakEnglish.m in Sources */ = {isa = PBXBuildFile; fileRef = 104FB0001F55BE1A00085793 /* SpeakEnglish.m */; };
 		104FB0041F55BE2400085793 /* SpeakChinese.m in Sources */ = {isa = PBXBuildFile; fileRef = 104FB0031F55BE2400085793 /* SpeakChinese.m */; };
 		104FB0081F55C07C00085793 /* Translator.m in Sources */ = {isa = PBXBuildFile; fileRef = 104FB0071F55C07C00085793 /* Translator.m */; };
@@ -84,6 +86,11 @@
 		104D30F21F5DB1010092D139 /* Circle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Circle.m; sourceTree = "<group>"; };
 		104D30F41F5DB19F0092D139 /* FlyweightFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlyweightFactory.h; sourceTree = "<group>"; };
 		104D30F51F5DB19F0092D139 /* FlyweightFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlyweightFactory.m; sourceTree = "<group>"; };
+		104D30F71F5DBA770092D139 /* Ticket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ticket.h; sourceTree = "<group>"; };
+		104D30F81F5DBAB70092D139 /* TrainStation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainStation.h; sourceTree = "<group>"; };
+		104D30F91F5DBAB70092D139 /* TrainStation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainStation.m; sourceTree = "<group>"; };
+		104D30FB1F5DBAF90092D139 /* TicketOutlets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TicketOutlets.h; sourceTree = "<group>"; };
+		104D30FC1F5DBAF90092D139 /* TicketOutlets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TicketOutlets.m; sourceTree = "<group>"; };
 		104FAFFF1F55BE1A00085793 /* SpeakEnglish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeakEnglish.h; sourceTree = "<group>"; };
 		104FB0001F55BE1A00085793 /* SpeakEnglish.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeakEnglish.m; sourceTree = "<group>"; };
 		104FB0021F55BE2400085793 /* SpeakChinese.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeakChinese.h; sourceTree = "<group>"; };
@@ -458,6 +465,11 @@
 		107938B51F3B761F000F287A /* Proxy */ = {
 			isa = PBXGroup;
 			children = (
+				104D30F71F5DBA770092D139 /* Ticket.h */,
+				104D30F81F5DBAB70092D139 /* TrainStation.h */,
+				104D30F91F5DBAB70092D139 /* TrainStation.m */,
+				104D30FB1F5DBAF90092D139 /* TicketOutlets.h */,
+				104D30FC1F5DBAF90092D139 /* TicketOutlets.m */,
 			);
 			path = Proxy;
 			sourceTree = "<group>";
@@ -575,6 +587,7 @@
 				104FB02A1F599A6000085793 /* Curtain.m in Sources */,
 				104D30EF1F5C5FB00092D139 /* Egg.m in Sources */,
 				109400381F41DF430026A0BB /* EmployeeDeepCopy.m in Sources */,
+				104D30FA1F5DBAB70092D139 /* TrainStation.m in Sources */,
 				104FB0241F599A2F00085793 /* HouseManager.m in Sources */,
 				104D30E91F5C5DA60092D139 /* Condiment.m in Sources */,
 				10D385441F4499330095A417 /* BlackHumanFactory.m in Sources */,
@@ -589,6 +602,7 @@
 				104FB00F1F55CBB800085793 /* MyModule.m in Sources */,
 				10D385C91F4B2DD20095A417 /* WoodDoor.m in Sources */,
 				10D385401F4497C30095A417 /* YellowHumanFactory.m in Sources */,
+				104D30FD1F5DBAF90092D139 /* TicketOutlets.m in Sources */,
 				2473C0071F592BB20018E4A3 /* File.m in Sources */,
 				109400321F3CC4B70026A0BB /* Employee.m in Sources */,
 				2473C0041F592A910018E4A3 /* ImplementationFile.m in Sources */,

@@ -34,6 +34,7 @@
 #import "Egg.h"
 #import "FlyweightFactory.h"
 #import "Circle.h"
+#import "TicketOutlets.h"
 
 void factoryMethod() {
     [NuWa someMagic];
@@ -150,6 +151,11 @@ void flyWeight() {
     [factory getCount];
 }
 
+void proxy() {
+    TicketOutlets *ticketOutlets = [[TicketOutlets alloc] init];
+    [ticketOutlets sell];
+}
+
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -164,6 +170,7 @@ int main(int argc, const char * argv[]) {
 //        composite();
 //        facede();
 //        flyWeight();
+//        proxy();
     }
     return 0;
 }

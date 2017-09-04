@@ -36,6 +36,8 @@
 #import "Circle.h"
 #import "TicketOutlets.h"
 
+#warning 调用部分请见main方法
+
 void factoryMethod() {
     [NuWa someMagic];
 }

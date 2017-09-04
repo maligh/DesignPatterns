@@ -32,6 +32,8 @@
 #import "ChickenBurger.h"
 #import "Chilli.h"
 #import "Egg.h"
+#import "FlyweightFactory.h"
+#import "Circle.h"
 
 void factoryMethod() {
     [NuWa someMagic];
@@ -133,6 +135,21 @@ void facede() {
     [manager getUp];
 }
 
+void flyWeight() {
+    FlyweightFactory *factory = [[FlyweightFactory alloc] init];
+    Circle *redCircle1 = [factory createCircleWithColorString:@"红色"];
+    Circle *redCircle2 = [factory createCircleWithColorString:@"红色"];
+    Circle *blueCircle1 = [factory createCircleWithColorString:@"蓝色"];
+    Circle *blueCircle2 = [factory createCircleWithColorString:@"蓝色"];
+    Circle *redCircle3 = [factory createCircleWithColorString:@"红色"];
+    [redCircle1 draw];
+    [redCircle2 draw];
+    [blueCircle1 draw];
+    [blueCircle2 draw];
+    [redCircle3 draw];
+    [factory getCount];
+}
+
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -146,6 +163,7 @@ int main(int argc, const char * argv[]) {
 //        decorator();
 //        composite();
 //        facede();
+//        flyWeight();
     }
     return 0;
 }

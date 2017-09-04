@@ -11,6 +11,8 @@
 		104D30E91F5C5DA60092D139 /* Condiment.m in Sources */ = {isa = PBXBuildFile; fileRef = 104D30E81F5C5DA60092D139 /* Condiment.m */; };
 		104D30EC1F5C5E290092D139 /* Chilli.m in Sources */ = {isa = PBXBuildFile; fileRef = 104D30EB1F5C5E290092D139 /* Chilli.m */; };
 		104D30EF1F5C5FB00092D139 /* Egg.m in Sources */ = {isa = PBXBuildFile; fileRef = 104D30EE1F5C5FB00092D139 /* Egg.m */; };
+		104D30F31F5DB1010092D139 /* Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = 104D30F21F5DB1010092D139 /* Circle.m */; };
+		104D30F61F5DB19F0092D139 /* FlyweightFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 104D30F51F5DB19F0092D139 /* FlyweightFactory.m */; };
 		104FB0011F55BE1A00085793 /* SpeakEnglish.m in Sources */ = {isa = PBXBuildFile; fileRef = 104FB0001F55BE1A00085793 /* SpeakEnglish.m */; };
 		104FB0041F55BE2400085793 /* SpeakChinese.m in Sources */ = {isa = PBXBuildFile; fileRef = 104FB0031F55BE2400085793 /* SpeakChinese.m */; };
 		104FB0081F55C07C00085793 /* Translator.m in Sources */ = {isa = PBXBuildFile; fileRef = 104FB0071F55C07C00085793 /* Translator.m */; };
@@ -77,6 +79,11 @@
 		104D30EB1F5C5E290092D139 /* Chilli.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chilli.m; sourceTree = "<group>"; };
 		104D30ED1F5C5FB00092D139 /* Egg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Egg.h; sourceTree = "<group>"; };
 		104D30EE1F5C5FB00092D139 /* Egg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Egg.m; sourceTree = "<group>"; };
+		104D30F01F5DB0CE0092D139 /* Shape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shape.h; sourceTree = "<group>"; };
+		104D30F11F5DB1010092D139 /* Circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
+		104D30F21F5DB1010092D139 /* Circle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Circle.m; sourceTree = "<group>"; };
+		104D30F41F5DB19F0092D139 /* FlyweightFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlyweightFactory.h; sourceTree = "<group>"; };
+		104D30F51F5DB19F0092D139 /* FlyweightFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlyweightFactory.m; sourceTree = "<group>"; };
 		104FAFFF1F55BE1A00085793 /* SpeakEnglish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeakEnglish.h; sourceTree = "<group>"; };
 		104FB0001F55BE1A00085793 /* SpeakEnglish.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeakEnglish.m; sourceTree = "<group>"; };
 		104FB0021F55BE2400085793 /* SpeakChinese.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeakChinese.h; sourceTree = "<group>"; };
@@ -389,6 +396,11 @@
 		107938AE1F3B761F000F287A /* Flyweight */ = {
 			isa = PBXGroup;
 			children = (
+				104D30F01F5DB0CE0092D139 /* Shape.h */,
+				104D30F11F5DB1010092D139 /* Circle.h */,
+				104D30F21F5DB1010092D139 /* Circle.m */,
+				104D30F41F5DB19F0092D139 /* FlyweightFactory.h */,
+				104D30F51F5DB19F0092D139 /* FlyweightFactory.m */,
 			);
 			path = Flyweight;
 			sourceTree = "<group>";
@@ -568,7 +580,9 @@
 				10D385441F4499330095A417 /* BlackHumanFactory.m in Sources */,
 				10D385E51F4B343B0095A417 /* DoorInstaller.m in Sources */,
 				109400481F42025E0026A0BB /* Singleton.m in Sources */,
+				104D30F61F5DB19F0092D139 /* FlyweightFactory.m in Sources */,
 				10D385371F4497120095A417 /* YellowHuman.m in Sources */,
+				104D30F31F5DB1010092D139 /* Circle.m in Sources */,
 				10D385351F4497120095A417 /* BlackHuman.m in Sources */,
 				10D385D31F4B2E890095A417 /* WoodDoorInstaller.m in Sources */,
 				104FB0161F55CC7800085793 /* RedTheme.m in Sources */,

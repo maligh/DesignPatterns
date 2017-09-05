@@ -8,7 +8,7 @@
 Type | Article
 ---|---
 创建型模式 | http://www.jianshu.com/p/55f0e3b30e9c
-结构性模式 | 
+结构性模式 | http://www.jianshu.com/p/8ae41a48021b
 行为型模式 |
 架构型模式 |
 

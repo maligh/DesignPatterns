@@ -10,4 +10,15 @@
 
 @implementation PM
 
+- (void)handleLeaveApplication:(NSUInteger)dayCount {
+
+    if (dayCount < 15) {
+        NSLog(@"PM:又请假相亲啊，去吧去吧~");
+    } else {
+        if (self.superior != nil) {
+            [self.superior handleLeaveApplication:dayCount];
+        }
+    }
+}
+
 @end

@@ -10,4 +10,8 @@
 
 @implementation Manager
 
+- (void)handleLeaveApplication:(NSUInteger)dayCount {
+}
+
+
 @end

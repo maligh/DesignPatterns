@@ -7,7 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Leave.h"
 
-@interface Manager : NSObject
+@interface Manager : NSObject<Leave>
+
+@property (nonatomic, strong) id<Leave> superior;
 
 @end

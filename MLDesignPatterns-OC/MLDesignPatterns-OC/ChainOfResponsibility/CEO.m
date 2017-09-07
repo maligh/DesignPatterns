@@ -10,4 +10,16 @@
 
 @implementation CEO
 
+- (void)handleLeaveApplication:(NSUInteger)dayCount {
+    if (dayCount > 30) {
+        NSLog(@"CEO:世界那么大你是不是也想出去看看？");
+    } else {
+        if (self.superior == nil) {
+            NSLog(@"CEO:Bug都写完了吗？写完就可以早点休假了");
+            return;
+        }
+        [self.superior handleLeaveApplication:dayCount];
+    }
+}
+
 @end

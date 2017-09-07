@@ -10,4 +10,7 @@
 
 @protocol Leave <NSObject>
 
+- (void)handleLeaveApplication:(NSUInteger)dayCount;
+
+
 @end

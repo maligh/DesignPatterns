@@ -35,6 +35,9 @@
 #import "FlyweightFactory.h"
 #import "Circle.h"
 #import "TicketOutlets.h"
+#import "CEO.h"
+#import "CTO.h"
+#import "PM.h"
 
 #warning 调用部分请见main方法
 
@@ -158,6 +161,20 @@ void proxy() {
     [ticketOutlets sell];
 }
 
+void chainOfResponsibility() {
+    CEO *ceo = [[CEO alloc] init];
+    CTO *cto = [[CTO alloc] init];
+    PM *pm = [[PM alloc] init];
+    pm.superior = cto;
+    cto.superior = ceo;
+    
+    NSArray *leaveApplicationArray = @[@"1", @"16", @"25", @"31"];
+    for (NSString *string in leaveApplicationArray) {
+        [pm handleLeaveApplication:[string integerValue]];
+    }
+    
+}
+
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -173,6 +190,7 @@ int main(int argc, const char * argv[]) {
 //        facede();
 //        flyWeight();
 //        proxy();
+        chainOfResponsibility();
     }
     return 0;
 }

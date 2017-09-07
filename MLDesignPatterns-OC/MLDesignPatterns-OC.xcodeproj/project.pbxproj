@@ -15,6 +15,10 @@
 		104D30F61F5DB19F0092D139 /* FlyweightFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 104D30F51F5DB19F0092D139 /* FlyweightFactory.m */; };
 		104D30FA1F5DBAB70092D139 /* TrainStation.m in Sources */ = {isa = PBXBuildFile; fileRef = 104D30F91F5DBAB70092D139 /* TrainStation.m */; };
 		104D30FD1F5DBAF90092D139 /* TicketOutlets.m in Sources */ = {isa = PBXBuildFile; fileRef = 104D30FC1F5DBAF90092D139 /* TicketOutlets.m */; };
+		104D31041F619F8B0092D139 /* Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = 104D31031F619F8B0092D139 /* Manager.m */; };
+		104D31071F619F9D0092D139 /* CEO.m in Sources */ = {isa = PBXBuildFile; fileRef = 104D31061F619F9D0092D139 /* CEO.m */; };
+		104D310A1F61A0FC0092D139 /* CTO.m in Sources */ = {isa = PBXBuildFile; fileRef = 104D31091F61A0FC0092D139 /* CTO.m */; };
+		104D310D1F61A27B0092D139 /* PM.m in Sources */ = {isa = PBXBuildFile; fileRef = 104D310C1F61A27B0092D139 /* PM.m */; };
 		104FB0011F55BE1A00085793 /* SpeakEnglish.m in Sources */ = {isa = PBXBuildFile; fileRef = 104FB0001F55BE1A00085793 /* SpeakEnglish.m */; };
 		104FB0041F55BE2400085793 /* SpeakChinese.m in Sources */ = {isa = PBXBuildFile; fileRef = 104FB0031F55BE2400085793 /* SpeakChinese.m */; };
 		104FB0081F55C07C00085793 /* Translator.m in Sources */ = {isa = PBXBuildFile; fileRef = 104FB0071F55C07C00085793 /* Translator.m */; };
@@ -91,6 +95,15 @@
 		104D30F91F5DBAB70092D139 /* TrainStation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainStation.m; sourceTree = "<group>"; };
 		104D30FB1F5DBAF90092D139 /* TicketOutlets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TicketOutlets.h; sourceTree = "<group>"; };
 		104D30FC1F5DBAF90092D139 /* TicketOutlets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TicketOutlets.m; sourceTree = "<group>"; };
+		104D30FE1F619CC90092D139 /* Leave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Leave.h; sourceTree = "<group>"; };
+		104D31021F619F8B0092D139 /* Manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Manager.h; sourceTree = "<group>"; };
+		104D31031F619F8B0092D139 /* Manager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Manager.m; sourceTree = "<group>"; };
+		104D31051F619F9D0092D139 /* CEO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEO.h; sourceTree = "<group>"; };
+		104D31061F619F9D0092D139 /* CEO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEO.m; sourceTree = "<group>"; };
+		104D31081F61A0FC0092D139 /* CTO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTO.h; sourceTree = "<group>"; };
+		104D31091F61A0FC0092D139 /* CTO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTO.m; sourceTree = "<group>"; };
+		104D310B1F61A27B0092D139 /* PM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PM.h; sourceTree = "<group>"; };
+		104D310C1F61A27B0092D139 /* PM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PM.m; sourceTree = "<group>"; };
 		104FAFFF1F55BE1A00085793 /* SpeakEnglish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeakEnglish.h; sourceTree = "<group>"; };
 		104FB0001F55BE1A00085793 /* SpeakEnglish.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeakEnglish.m; sourceTree = "<group>"; };
 		104FB0021F55BE2400085793 /* SpeakChinese.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeakChinese.h; sourceTree = "<group>"; };
@@ -320,6 +333,15 @@
 		107938A81F3B761F000F287A /* ChainOfResponsibility */ = {
 			isa = PBXGroup;
 			children = (
+				104D30FE1F619CC90092D139 /* Leave.h */,
+				104D31021F619F8B0092D139 /* Manager.h */,
+				104D31031F619F8B0092D139 /* Manager.m */,
+				104D31051F619F9D0092D139 /* CEO.h */,
+				104D31061F619F9D0092D139 /* CEO.m */,
+				104D31081F61A0FC0092D139 /* CTO.h */,
+				104D31091F61A0FC0092D139 /* CTO.m */,
+				104D310B1F61A27B0092D139 /* PM.h */,
+				104D310C1F61A27B0092D139 /* PM.m */,
 			);
 			path = ChainOfResponsibility;
 			sourceTree = "<group>";
@@ -591,9 +613,12 @@
 				104FB0241F599A2F00085793 /* HouseManager.m in Sources */,
 				104D30E91F5C5DA60092D139 /* Condiment.m in Sources */,
 				10D385441F4499330095A417 /* BlackHumanFactory.m in Sources */,
+				104D31071F619F9D0092D139 /* CEO.m in Sources */,
+				104D310A1F61A0FC0092D139 /* CTO.m in Sources */,
 				10D385E51F4B343B0095A417 /* DoorInstaller.m in Sources */,
 				109400481F42025E0026A0BB /* Singleton.m in Sources */,
 				104D30F61F5DB19F0092D139 /* FlyweightFactory.m in Sources */,
+				104D31041F619F8B0092D139 /* Manager.m in Sources */,
 				10D385371F4497120095A417 /* YellowHuman.m in Sources */,
 				104D30F31F5DB1010092D139 /* Circle.m in Sources */,
 				10D385351F4497120095A417 /* BlackHuman.m in Sources */,
@@ -613,6 +638,7 @@
 				104D30E61F5C5CC30092D139 /* ChickenBurger.m in Sources */,
 				1094003B1F41DF5A0026A0BB /* EmployeeShallowCopy.m in Sources */,
 				10D385E21F4B34010095A417 /* Door.m in Sources */,
+				104D310D1F61A27B0092D139 /* PM.m in Sources */,
 				10D3853A1F44971B0095A417 /* NuWa.m in Sources */,
 				10D385EF1F4B41BF0095A417 /* FiveYuanNoSpicyBuild.m in Sources */,
 				10D385361F4497120095A417 /* WhiteHuman.m in Sources */,

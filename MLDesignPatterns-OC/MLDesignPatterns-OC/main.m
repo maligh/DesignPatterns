@@ -172,7 +172,6 @@ void chainOfResponsibility() {
     for (NSString *string in leaveApplicationArray) {
         [pm handleLeaveApplication:[string integerValue]];
     }
-    
 }
 
 
@@ -190,7 +189,7 @@ int main(int argc, const char * argv[]) {
 //        facede();
 //        flyWeight();
 //        proxy();
-        chainOfResponsibility();
+//        chainOfResponsibility();
     }
     return 0;
 }

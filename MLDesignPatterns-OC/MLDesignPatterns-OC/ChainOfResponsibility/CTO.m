@@ -19,7 +19,7 @@
         NSLog(@"dayCount:%ld----CTO:又请假相亲啊，去吧去吧~", dayCount);
     } else {
         if (self.superior != nil) {
-            NSLog(@"dayCount:%ld----CTO:又请假相亲啊，我批准了，再去问一下我的老大吧~", dayCount);
+            NSLog(@"dayCount:%ld----CTO:又请假相亲啊，我没权利批假，去问一下我的老大吧~", dayCount);
             [self.superior handleLeaveApplication:dayCount];
         }
     }

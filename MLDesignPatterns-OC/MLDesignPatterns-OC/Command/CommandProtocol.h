@@ -10,4 +10,10 @@
 
 @protocol CommandProtocol <NSObject>
 
+@required
+/**
+ 执行指令
+ */
+- (void)execute;
+
 @end

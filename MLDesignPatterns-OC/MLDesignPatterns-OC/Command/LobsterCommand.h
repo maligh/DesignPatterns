@@ -7,7 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Command.h"
 
-@interface LobsterCommand : NSObject
+/**
+ 龙虾
+ */
+@interface LobsterCommand : Command
 
 @end

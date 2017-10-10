@@ -7,7 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Command.h"
 
-@interface AbaloneCommand : NSObject
+/**
+ 鲍鱼
+ */
+@interface AbaloneCommand : Command
 
 @end

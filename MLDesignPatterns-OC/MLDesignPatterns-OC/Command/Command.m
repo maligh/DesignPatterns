@@ -10,4 +10,13 @@
 
 @implementation Command
 
+- (void)execute {
+}
+
+- (void)initWithReceiver:(Cook *)cook {
+    if (self = [super init]) {
+        _cook = cook;
+    }
+}
+
 @end

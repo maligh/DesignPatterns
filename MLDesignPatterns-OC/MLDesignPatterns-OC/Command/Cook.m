@@ -8,6 +8,9 @@
 
 #import "Cook.h"
 
+/**
+ 厨子
+ */
 @implementation Cook
 
 @end

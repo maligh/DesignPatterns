@@ -7,7 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "CommandProtocol.h"
 
+/**
+ 服务员
+ */
 @interface Waiter : NSObject
 
 @end

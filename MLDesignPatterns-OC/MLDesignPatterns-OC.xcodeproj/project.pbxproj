@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10428FEA1F8D21CB00C67F26 /* Cook.m in Sources */ = {isa = PBXBuildFile; fileRef = 10428FE91F8D21CB00C67F26 /* Cook.m */; };
+		10428FED1F8D224100C67F26 /* LobsterCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 10428FEC1F8D224100C67F26 /* LobsterCommand.m */; };
+		10428FF01F8D225A00C67F26 /* AbaloneCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 10428FEF1F8D225A00C67F26 /* AbaloneCommand.m */; };
+		10428FF31F8D22E800C67F26 /* Command.m in Sources */ = {isa = PBXBuildFile; fileRef = 10428FF21F8D22E800C67F26 /* Command.m */; };
 		104D30E61F5C5CC30092D139 /* ChickenBurger.m in Sources */ = {isa = PBXBuildFile; fileRef = 104D30E51F5C5CC30092D139 /* ChickenBurger.m */; };
 		104D30E91F5C5DA60092D139 /* Condiment.m in Sources */ = {isa = PBXBuildFile; fileRef = 104D30E81F5C5DA60092D139 /* Condiment.m */; };
 		104D30EC1F5C5E290092D139 /* Chilli.m in Sources */ = {isa = PBXBuildFile; fileRef = 104D30EB1F5C5E290092D139 /* Chilli.m */; };
@@ -57,6 +61,7 @@
 		10D385EF1F4B41BF0095A417 /* FiveYuanNoSpicyBuild.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D385EE1F4B41BF0095A417 /* FiveYuanNoSpicyBuild.m */; };
 		10D385F21F4B42BD0095A417 /* TenYuanAbnormalSpicyBuild.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D385F11F4B42BD0095A417 /* TenYuanAbnormalSpicyBuild.m */; };
 		10D385F51F4B43A80095A417 /* Seller.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D385F41F4B43A80095A417 /* Seller.m */; };
+		10F84C4F1F8D1E5F00722C69 /* Waiter.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F84C4E1F8D1E5F00722C69 /* Waiter.m */; };
 		2473BFF91F59108D0018E4A3 /* Folder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2473BFF81F59108D0018E4A3 /* Folder.m */; };
 		2473BFFF1F592A120018E4A3 /* HeaderFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 2473BFFE1F592A120018E4A3 /* HeaderFile.m */; };
 		2473C0041F592A910018E4A3 /* ImplementationFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 2473C0031F592A910018E4A3 /* ImplementationFile.m */; };
@@ -76,6 +81,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		10428FE81F8D21CB00C67F26 /* Cook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cook.h; sourceTree = "<group>"; };
+		10428FE91F8D21CB00C67F26 /* Cook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cook.m; sourceTree = "<group>"; };
+		10428FEB1F8D224100C67F26 /* LobsterCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LobsterCommand.h; sourceTree = "<group>"; };
+		10428FEC1F8D224100C67F26 /* LobsterCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LobsterCommand.m; sourceTree = "<group>"; };
+		10428FEE1F8D225A00C67F26 /* AbaloneCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbaloneCommand.h; sourceTree = "<group>"; };
+		10428FEF1F8D225A00C67F26 /* AbaloneCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbaloneCommand.m; sourceTree = "<group>"; };
+		10428FF11F8D22E800C67F26 /* Command.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
+		10428FF21F8D22E800C67F26 /* Command.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Command.m; sourceTree = "<group>"; };
 		104D30E31F5C5C740092D139 /* Humburger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Humburger.h; sourceTree = "<group>"; };
 		104D30E41F5C5CC30092D139 /* ChickenBurger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChickenBurger.h; sourceTree = "<group>"; };
 		104D30E51F5C5CC30092D139 /* ChickenBurger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChickenBurger.m; sourceTree = "<group>"; };
@@ -186,6 +199,9 @@
 		10D385F11F4B42BD0095A417 /* TenYuanAbnormalSpicyBuild.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TenYuanAbnormalSpicyBuild.m; sourceTree = "<group>"; };
 		10D385F31F4B43A80095A417 /* Seller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Seller.h; sourceTree = "<group>"; };
 		10D385F41F4B43A80095A417 /* Seller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Seller.m; sourceTree = "<group>"; };
+		10F84C4C1F8D1B5300722C69 /* CommandProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommandProtocol.h; sourceTree = "<group>"; };
+		10F84C4D1F8D1E5F00722C69 /* Waiter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Waiter.h; sourceTree = "<group>"; };
+		10F84C4E1F8D1E5F00722C69 /* Waiter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Waiter.m; sourceTree = "<group>"; };
 		2473BFF61F590FB40018E4A3 /* FileSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileSystem.h; sourceTree = "<group>"; };
 		2473BFF71F59108D0018E4A3 /* Folder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Folder.h; sourceTree = "<group>"; };
 		2473BFF81F59108D0018E4A3 /* Folder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Folder.m; sourceTree = "<group>"; };
@@ -349,6 +365,17 @@
 		107938A91F3B761F000F287A /* Command */ = {
 			isa = PBXGroup;
 			children = (
+				10F84C4C1F8D1B5300722C69 /* CommandProtocol.h */,
+				10F84C4D1F8D1E5F00722C69 /* Waiter.h */,
+				10F84C4E1F8D1E5F00722C69 /* Waiter.m */,
+				10428FE81F8D21CB00C67F26 /* Cook.h */,
+				10428FE91F8D21CB00C67F26 /* Cook.m */,
+				10428FF11F8D22E800C67F26 /* Command.h */,
+				10428FF21F8D22E800C67F26 /* Command.m */,
+				10428FEB1F8D224100C67F26 /* LobsterCommand.h */,
+				10428FEC1F8D224100C67F26 /* LobsterCommand.m */,
+				10428FEE1F8D225A00C67F26 /* AbaloneCommand.h */,
+				10428FEF1F8D225A00C67F26 /* AbaloneCommand.m */,
 			);
 			path = Command;
 			sourceTree = "<group>";
@@ -599,7 +626,9 @@
 				10D3852E1F4497020095A417 /* Human.m in Sources */,
 				2473BFF91F59108D0018E4A3 /* Folder.m in Sources */,
 				10D385CC1F4B2DF80095A417 /* IronDoor.m in Sources */,
+				10F84C4F1F8D1E5F00722C69 /* Waiter.m in Sources */,
 				1079389D1F3B7529000F287A /* main.m in Sources */,
+				10428FED1F8D224100C67F26 /* LobsterCommand.m in Sources */,
 				104FB01C1F55CDC200085793 /* Module.m in Sources */,
 				109400351F3CC62E0026A0BB /* Company.m in Sources */,
 				10D385D61F4B2E950095A417 /* IronDoorInstaller.m in Sources */,
@@ -612,6 +641,7 @@
 				104D30FA1F5DBAB70092D139 /* TrainStation.m in Sources */,
 				104FB0241F599A2F00085793 /* HouseManager.m in Sources */,
 				104D30E91F5C5DA60092D139 /* Condiment.m in Sources */,
+				10428FF01F8D225A00C67F26 /* AbaloneCommand.m in Sources */,
 				10D385441F4499330095A417 /* BlackHumanFactory.m in Sources */,
 				104D31071F619F9D0092D139 /* CEO.m in Sources */,
 				104D310A1F61A0FC0092D139 /* CTO.m in Sources */,
@@ -621,6 +651,7 @@
 				104D31041F619F8B0092D139 /* Manager.m in Sources */,
 				10D385371F4497120095A417 /* YellowHuman.m in Sources */,
 				104D30F31F5DB1010092D139 /* Circle.m in Sources */,
+				10428FF31F8D22E800C67F26 /* Command.m in Sources */,
 				10D385351F4497120095A417 /* BlackHuman.m in Sources */,
 				10D385D31F4B2E890095A417 /* WoodDoorInstaller.m in Sources */,
 				104FB0161F55CC7800085793 /* RedTheme.m in Sources */,
@@ -642,6 +673,7 @@
 				10D3853A1F44971B0095A417 /* NuWa.m in Sources */,
 				10D385EF1F4B41BF0095A417 /* FiveYuanNoSpicyBuild.m in Sources */,
 				10D385361F4497120095A417 /* WhiteHuman.m in Sources */,
+				10428FEA1F8D21CB00C67F26 /* Cook.m in Sources */,
 				10D385DC1F4B32870095A417 /* WoodDoorFactory.m in Sources */,
 				104D30EC1F5C5E290092D139 /* Chilli.m in Sources */,
 			);

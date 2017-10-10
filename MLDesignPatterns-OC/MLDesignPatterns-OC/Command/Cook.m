@@ -13,4 +13,11 @@
  */
 @implementation Cook
 
+- (void)cookLobster {
+    NSLog(@"制作好了龙虾");
+}
+- (void)cookAbalone {
+    NSLog(@"制作好了鲍鱼");
+}
+
 @end

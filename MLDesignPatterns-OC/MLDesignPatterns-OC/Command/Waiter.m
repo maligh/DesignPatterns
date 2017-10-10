@@ -35,7 +35,12 @@
 }
 
 - (void)cancleOrder:(id <CommandProtocol>)command {
-    
+    if ([_commandQueue containsObject:command]) {
+        [_commandQueue removeObject:command];
+        NSLog(@"取消成功");
+    } else {
+        NSLog(@"已经不可以取消了");
+    }
 }
 
 @end

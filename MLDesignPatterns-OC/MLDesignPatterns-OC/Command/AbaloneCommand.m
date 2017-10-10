@@ -10,4 +10,8 @@
 
 @implementation AbaloneCommand
 
+- (void)execute {
+    [self.cook cookAbalone];
+}
+
 @end

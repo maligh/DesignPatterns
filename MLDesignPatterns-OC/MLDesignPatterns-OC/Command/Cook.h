@@ -10,4 +10,15 @@
 
 @interface Cook : NSObject
 
+/**
+ 制作龙虾
+ */
+- (void)cookLobster;
+
+/**
+ 制作鲍鱼
+ */
+- (void)cookAbalone;
+
+
 @end

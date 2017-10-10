@@ -8,12 +8,12 @@
 
 #import <Foundation/Foundation.h>
 #import "CommandProtocol.h"
+#import "Cook.h"
 
-@class Cook;
 @interface Command : NSObject<CommandProtocol>
 
 @property (nonatomic, strong, readonly) Cook *cook;
 
-- (void)initWithReceiver:(Cook *)cook;
+- (instancetype)initWithReceiver:(Cook *)cook;
 
 @end

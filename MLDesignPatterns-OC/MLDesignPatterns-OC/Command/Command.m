@@ -13,10 +13,14 @@
 - (void)execute {
 }
 
-- (void)initWithReceiver:(Cook *)cook {
+- (void)cancleCommand {
+}
+
+- (instancetype)initWithReceiver:(Cook *)cook {
     if (self = [super init]) {
         _cook = cook;
     }
+    return self;
 }
 
 @end

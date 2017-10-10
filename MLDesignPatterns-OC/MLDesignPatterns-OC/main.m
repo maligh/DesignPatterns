@@ -38,6 +38,10 @@
 #import "CEO.h"
 #import "CTO.h"
 #import "PM.h"
+#import "Waiter.h"
+#import "Cook.h"
+#import "LobsterCommand.h"
+#import "AbaloneCommand.h"
 
 #warning 调用部分请见main方法
 
@@ -174,6 +178,18 @@ void chainOfResponsibility() {
     }
 }
 
+void command() {
+    Waiter *waiter = [[Waiter alloc] init];
+    Cook *stephenChow = [[Cook alloc] init];
+    LobsterCommand *lobsterCommand = [[LobsterCommand alloc] initWithReceiver:stephenChow];
+    AbaloneCommand *abaloneCommand = [[AbaloneCommand alloc] initWithReceiver:stephenChow];
+    
+    [waiter addOrder:lobsterCommand];
+    [waiter addOrder:abaloneCommand];
+    [waiter submmitOrder];
+    [waiter cancleOrder:lobsterCommand];
+}
+
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -190,6 +206,7 @@ int main(int argc, const char * argv[]) {
 //        flyWeight();
 //        proxy();
 //        chainOfResponsibility();
+        command();
     }
     return 0;
 }

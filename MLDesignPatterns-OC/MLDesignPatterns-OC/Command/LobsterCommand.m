@@ -10,5 +10,8 @@
 
 @implementation LobsterCommand
 
+- (void)execute {
+    [self.cook cookLobster];
+}
 
 @end

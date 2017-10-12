@@ -42,6 +42,8 @@
 #import "Cook.h"
 #import "LobsterCommand.h"
 #import "AbaloneCommand.h"
+#import "User.h"
+#import "ChatRoom.h"
 
 #warning 调用部分请见main方法
 
@@ -190,6 +192,14 @@ void command() {
     [waiter cancleOrder:lobsterCommand];
 }
 
+void mediator() {
+    ChatRoom *room = [[ChatRoom alloc] init];
+    User *wuJun = [[User alloc] initWithName:@"吴军" room:room];
+    User *me = [[User alloc] initWithName:@"SuperMario" room:room];
+    [wuJun sendMessage:@"来自硅谷的第一封信"];
+    [me sendMessage:@"谢谢，不做伪工作者"];
+}
+
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -206,7 +216,8 @@ int main(int argc, const char * argv[]) {
 //        flyWeight();
 //        proxy();
 //        chainOfResponsibility();
-        command();
+//        command();
+        mediator();
     }
     return 0;
 }

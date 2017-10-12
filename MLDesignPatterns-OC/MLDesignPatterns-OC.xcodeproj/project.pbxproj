@@ -11,6 +11,8 @@
 		10428FED1F8D224100C67F26 /* LobsterCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 10428FEC1F8D224100C67F26 /* LobsterCommand.m */; };
 		10428FF01F8D225A00C67F26 /* AbaloneCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 10428FEF1F8D225A00C67F26 /* AbaloneCommand.m */; };
 		10428FF31F8D22E800C67F26 /* Command.m in Sources */ = {isa = PBXBuildFile; fileRef = 10428FF21F8D22E800C67F26 /* Command.m */; };
+		10428FF71F8FC3AD00C67F26 /* ChatRoom.m in Sources */ = {isa = PBXBuildFile; fileRef = 10428FF61F8FC3AD00C67F26 /* ChatRoom.m */; };
+		10428FFA1F8FC4A600C67F26 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 10428FF91F8FC4A600C67F26 /* User.m */; };
 		104D30E61F5C5CC30092D139 /* ChickenBurger.m in Sources */ = {isa = PBXBuildFile; fileRef = 104D30E51F5C5CC30092D139 /* ChickenBurger.m */; };
 		104D30E91F5C5DA60092D139 /* Condiment.m in Sources */ = {isa = PBXBuildFile; fileRef = 104D30E81F5C5DA60092D139 /* Condiment.m */; };
 		104D30EC1F5C5E290092D139 /* Chilli.m in Sources */ = {isa = PBXBuildFile; fileRef = 104D30EB1F5C5E290092D139 /* Chilli.m */; };
@@ -89,6 +91,11 @@
 		10428FEF1F8D225A00C67F26 /* AbaloneCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbaloneCommand.m; sourceTree = "<group>"; };
 		10428FF11F8D22E800C67F26 /* Command.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
 		10428FF21F8D22E800C67F26 /* Command.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Command.m; sourceTree = "<group>"; };
+		10428FF41F8FC25200C67F26 /* MediatorProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MediatorProtocol.h; sourceTree = "<group>"; };
+		10428FF51F8FC3AD00C67F26 /* ChatRoom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatRoom.h; sourceTree = "<group>"; };
+		10428FF61F8FC3AD00C67F26 /* ChatRoom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatRoom.m; sourceTree = "<group>"; };
+		10428FF81F8FC4A600C67F26 /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		10428FF91F8FC4A600C67F26 /* User.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		104D30E31F5C5C740092D139 /* Humburger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Humburger.h; sourceTree = "<group>"; };
 		104D30E41F5C5CC30092D139 /* ChickenBurger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChickenBurger.h; sourceTree = "<group>"; };
 		104D30E51F5C5CC30092D139 /* ChickenBurger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChickenBurger.m; sourceTree = "<group>"; };
@@ -478,6 +485,11 @@
 		107938B11F3B761F000F287A /* Mediator */ = {
 			isa = PBXGroup;
 			children = (
+				10428FF41F8FC25200C67F26 /* MediatorProtocol.h */,
+				10428FF51F8FC3AD00C67F26 /* ChatRoom.h */,
+				10428FF61F8FC3AD00C67F26 /* ChatRoom.m */,
+				10428FF81F8FC4A600C67F26 /* User.h */,
+				10428FF91F8FC4A600C67F26 /* User.m */,
 			);
 			path = Mediator;
 			sourceTree = "<group>";
@@ -659,6 +671,7 @@
 				10D385C91F4B2DD20095A417 /* WoodDoor.m in Sources */,
 				10D385401F4497C30095A417 /* YellowHumanFactory.m in Sources */,
 				104D30FD1F5DBAF90092D139 /* TicketOutlets.m in Sources */,
+				10428FFA1F8FC4A600C67F26 /* User.m in Sources */,
 				2473C0071F592BB20018E4A3 /* File.m in Sources */,
 				109400321F3CC4B70026A0BB /* Employee.m in Sources */,
 				2473C0041F592A910018E4A3 /* ImplementationFile.m in Sources */,
@@ -675,6 +688,7 @@
 				10D385361F4497120095A417 /* WhiteHuman.m in Sources */,
 				10428FEA1F8D21CB00C67F26 /* Cook.m in Sources */,
 				10D385DC1F4B32870095A417 /* WoodDoorFactory.m in Sources */,
+				10428FF71F8FC3AD00C67F26 /* ChatRoom.m in Sources */,
 				104D30EC1F5C5E290092D139 /* Chilli.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

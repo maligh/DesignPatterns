@@ -44,6 +44,8 @@
 #import "AbaloneCommand.h"
 #import "User.h"
 #import "ChatRoom.h"
+#import "JobProvider.h"
+#import "JobHunter.h"
 
 #warning 调用部分请见main方法
 
@@ -200,6 +202,14 @@ void mediator() {
     [me sendMessage:@"谢谢，不做伪工作者"];
 }
 
+void observer() {
+    JobHunter *zhangSan = [[JobHunter alloc] initWithName:@"张三"];
+    JobHunter *liSi = [[JobHunter alloc] initWithName:@"李四"];
+    JobProvider *jobProvider = [[JobProvider alloc] init];
+    [jobProvider addObserver:zhangSan];
+    [jobProvider addObserver:liSi];
+    [jobProvider notify];
+}
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -217,7 +227,8 @@ int main(int argc, const char * argv[]) {
 //        proxy();
 //        chainOfResponsibility();
 //        command();
-        mediator();
+//        mediator();
+        observer();
     }
     return 0;
 }

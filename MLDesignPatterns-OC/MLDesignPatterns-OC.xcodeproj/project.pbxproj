@@ -13,6 +13,8 @@
 		10428FF31F8D22E800C67F26 /* Command.m in Sources */ = {isa = PBXBuildFile; fileRef = 10428FF21F8D22E800C67F26 /* Command.m */; };
 		10428FF71F8FC3AD00C67F26 /* ChatRoom.m in Sources */ = {isa = PBXBuildFile; fileRef = 10428FF61F8FC3AD00C67F26 /* ChatRoom.m */; };
 		10428FFA1F8FC4A600C67F26 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 10428FF91F8FC4A600C67F26 /* User.m */; };
+		10428FFD1F8FCB4300C67F26 /* JobProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 10428FFC1F8FCB4300C67F26 /* JobProvider.m */; };
+		104290051F8FD05700C67F26 /* JobHunter.m in Sources */ = {isa = PBXBuildFile; fileRef = 104290041F8FD05700C67F26 /* JobHunter.m */; };
 		104D30E61F5C5CC30092D139 /* ChickenBurger.m in Sources */ = {isa = PBXBuildFile; fileRef = 104D30E51F5C5CC30092D139 /* ChickenBurger.m */; };
 		104D30E91F5C5DA60092D139 /* Condiment.m in Sources */ = {isa = PBXBuildFile; fileRef = 104D30E81F5C5DA60092D139 /* Condiment.m */; };
 		104D30EC1F5C5E290092D139 /* Chilli.m in Sources */ = {isa = PBXBuildFile; fileRef = 104D30EB1F5C5E290092D139 /* Chilli.m */; };
@@ -96,6 +98,12 @@
 		10428FF61F8FC3AD00C67F26 /* ChatRoom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatRoom.m; sourceTree = "<group>"; };
 		10428FF81F8FC4A600C67F26 /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
 		10428FF91F8FC4A600C67F26 /* User.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		10428FFB1F8FCB4300C67F26 /* JobProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JobProvider.h; sourceTree = "<group>"; };
+		10428FFC1F8FCB4300C67F26 /* JobProvider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JobProvider.m; sourceTree = "<group>"; };
+		10428FFE1F8FCD5B00C67F26 /* ObserverProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObserverProtocol.h; sourceTree = "<group>"; };
+		104290021F8FCF3D00C67F26 /* SubjectProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubjectProtocol.h; sourceTree = "<group>"; };
+		104290031F8FD05700C67F26 /* JobHunter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JobHunter.h; sourceTree = "<group>"; };
+		104290041F8FD05700C67F26 /* JobHunter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JobHunter.m; sourceTree = "<group>"; };
 		104D30E31F5C5C740092D139 /* Humburger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Humburger.h; sourceTree = "<group>"; };
 		104D30E41F5C5CC30092D139 /* ChickenBurger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChickenBurger.h; sourceTree = "<group>"; };
 		104D30E51F5C5CC30092D139 /* ChickenBurger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChickenBurger.m; sourceTree = "<group>"; };
@@ -504,6 +512,12 @@
 		107938B31F3B761F000F287A /* Observer */ = {
 			isa = PBXGroup;
 			children = (
+				104290021F8FCF3D00C67F26 /* SubjectProtocol.h */,
+				10428FFB1F8FCB4300C67F26 /* JobProvider.h */,
+				10428FFC1F8FCB4300C67F26 /* JobProvider.m */,
+				10428FFE1F8FCD5B00C67F26 /* ObserverProtocol.h */,
+				104290031F8FD05700C67F26 /* JobHunter.h */,
+				104290041F8FD05700C67F26 /* JobHunter.m */,
 			);
 			path = Observer;
 			sourceTree = "<group>";
@@ -661,6 +675,7 @@
 				109400481F42025E0026A0BB /* Singleton.m in Sources */,
 				104D30F61F5DB19F0092D139 /* FlyweightFactory.m in Sources */,
 				104D31041F619F8B0092D139 /* Manager.m in Sources */,
+				10428FFD1F8FCB4300C67F26 /* JobProvider.m in Sources */,
 				10D385371F4497120095A417 /* YellowHuman.m in Sources */,
 				104D30F31F5DB1010092D139 /* Circle.m in Sources */,
 				10428FF31F8D22E800C67F26 /* Command.m in Sources */,
@@ -687,6 +702,7 @@
 				10D385EF1F4B41BF0095A417 /* FiveYuanNoSpicyBuild.m in Sources */,
 				10D385361F4497120095A417 /* WhiteHuman.m in Sources */,
 				10428FEA1F8D21CB00C67F26 /* Cook.m in Sources */,
+				104290051F8FD05700C67F26 /* JobHunter.m in Sources */,
 				10D385DC1F4B32870095A417 /* WoodDoorFactory.m in Sources */,
 				10428FF71F8FC3AD00C67F26 /* ChatRoom.m in Sources */,
 				104D30EC1F5C5E290092D139 /* Chilli.m in Sources */,

@@ -1,20 +1,20 @@
 //
-//  Subject.m
+//  JobProvider.m
 //  MLDesignPatterns-OC
 //
 //  Created by mjpc on 2017/10/13.
 //  Copyright © 2017年 mali. All rights reserved.
 //
 
-#import "Subject.h"
+#import "JobProvider.h"
 
-@interface Subject()
+@interface JobProvider()
 
 @property (nonatomic, strong) NSMutableArray *observers;
 
 @end
 
-@implementation Subject
+@implementation JobProvider
 
 - (void)addObserver:(NSObject *)observer {
     [self.observers addObject:observer];

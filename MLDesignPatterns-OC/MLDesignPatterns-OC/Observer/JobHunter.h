@@ -7,7 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "ObserverProtocol.h"
 
-@interface JobHunter : NSObject
+@interface JobHunter : NSObject<ObserverProtocol>
+
+- (instancetype)initWithName:(NSString *)name;
 
 @end

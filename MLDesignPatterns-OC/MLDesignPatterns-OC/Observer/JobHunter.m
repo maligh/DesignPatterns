@@ -8,6 +8,24 @@
 
 #import "JobHunter.h"
 
+@interface JobHunter()
+
+@property (nonatomic, copy) NSString *name;
+
+@end
+
 @implementation JobHunter
+
+- (instancetype)initWithName:(NSString *)name {
+    if (self = [super init]) {
+        _name = name;
+    }
+    return self;
+}
+
+
+- (void)update {
+    NSLog(@"%@:有一个新的职位更新啦",_name);
+}
 
 @end

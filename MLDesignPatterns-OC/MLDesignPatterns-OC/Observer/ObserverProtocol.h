@@ -10,4 +10,6 @@
 
 @protocol ObserverProtocol <NSObject>
 
+- (void)update;
+
 @end

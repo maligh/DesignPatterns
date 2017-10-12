@@ -1,5 +1,5 @@
 //
-//  Subject.h
+//  JobProvider.h
 //  MLDesignPatterns-OC
 //
 //  Created by mjpc on 2017/10/13.
@@ -9,6 +9,6 @@
 #import <Foundation/Foundation.h>
 #import "SubjectProtocol.h"
 
-@interface Subject : NSObject<SubjectProtocol>
+@interface JobProvider : NSObject<SubjectProtocol>
 
 @end

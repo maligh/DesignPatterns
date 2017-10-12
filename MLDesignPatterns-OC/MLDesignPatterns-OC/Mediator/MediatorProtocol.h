@@ -10,4 +10,6 @@
 
 @protocol MediatorProtocol <NSObject>
 
+- (void)showMessage:(NSString *)message;
+
 @end

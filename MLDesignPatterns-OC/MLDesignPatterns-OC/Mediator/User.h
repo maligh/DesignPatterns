@@ -7,7 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "ChatRoom.h"
 
 @interface User : NSObject
+
+- (instancetype)initWithName:(NSString *)name room:(ChatRoom *)room;
+
+- (void)sendMessage:(NSString *)message;
 
 @end

@@ -7,7 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "MediatorProtocol.h"
 
-@interface ChatRoom : NSObject
+@interface ChatRoom : NSObject<MediatorProtocol>
+
+- (void)showMessage:(NSString *)message userName:(NSString *)name;
 
 @end

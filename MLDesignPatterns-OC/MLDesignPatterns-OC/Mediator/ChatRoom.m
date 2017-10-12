@@ -10,4 +10,13 @@
 
 @implementation ChatRoom
 
+- (void)showMessage:(NSString *)message {
+    NSLog(@"%@\n",message);
+}
+
+- (void)showMessage:(NSString *)message userName:(NSString *)name {
+    NSString *string = [NSString stringWithFormat:@"%@:%@", name, message];
+    [self showMessage:string];
+}
+
 @end

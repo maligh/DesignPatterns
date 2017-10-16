@@ -49,6 +49,10 @@
 #import "EditorMemento.h"
 #import "Editor.h"
 #import "Sort.h"
+#import "ObjectStructure.h"
+#import "NegativePerson.h"
+#import "PositivePerson.h"
+#import "HalfCupWater.h"
 
 #warning 调用部分请见main方法
 
@@ -234,6 +238,14 @@ void strategy() {
     [Sort sort:largeArray];
 }
 
+void visitor() {
+    ObjectStructure *structure = [[ObjectStructure alloc] init];
+    [structure add:[[PositivePerson alloc] init]];
+    [structure add:[[NegativePerson alloc] init]];
+    HalfCupWater *action = [[HalfCupWater alloc] init];
+    [structure echo:action];
+}
+
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
@@ -254,6 +266,7 @@ int main(int argc, const char * argv[]) {
 //        observer();
 //        memento();
 //        strategy();
+//        visitor();
     }
     return 0;
 }

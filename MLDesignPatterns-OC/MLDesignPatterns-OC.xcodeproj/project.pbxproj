@@ -20,6 +20,10 @@
 		1042900F1F95096B00C67F26 /* BubbleSortStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1042900E1F95096B00C67F26 /* BubbleSortStrategy.m */; };
 		104290121F95097700C67F26 /* QuickSortStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 104290111F95097700C67F26 /* QuickSortStrategy.m */; };
 		104290151F950D1900C67F26 /* Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = 104290141F950D1900C67F26 /* Sort.m */; };
+		1042901A1F951D2100C67F26 /* PositivePerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 104290191F951D2100C67F26 /* PositivePerson.m */; };
+		1042901D1F951D3C00C67F26 /* NegativePerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 1042901C1F951D3C00C67F26 /* NegativePerson.m */; };
+		1049649A1F9522B500651EE2 /* HalfCupWater.m in Sources */ = {isa = PBXBuildFile; fileRef = 104964991F9522B500651EE2 /* HalfCupWater.m */; };
+		1049649D1F95234B00651EE2 /* ObjectStructure.m in Sources */ = {isa = PBXBuildFile; fileRef = 1049649C1F95234B00651EE2 /* ObjectStructure.m */; };
 		104D30E61F5C5CC30092D139 /* ChickenBurger.m in Sources */ = {isa = PBXBuildFile; fileRef = 104D30E51F5C5CC30092D139 /* ChickenBurger.m */; };
 		104D30E91F5C5DA60092D139 /* Condiment.m in Sources */ = {isa = PBXBuildFile; fileRef = 104D30E81F5C5DA60092D139 /* Condiment.m */; };
 		104D30EC1F5C5E290092D139 /* Chilli.m in Sources */ = {isa = PBXBuildFile; fileRef = 104D30EB1F5C5E290092D139 /* Chilli.m */; };
@@ -120,6 +124,16 @@
 		104290111F95097700C67F26 /* QuickSortStrategy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuickSortStrategy.m; sourceTree = "<group>"; };
 		104290131F950D1900C67F26 /* Sort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sort.h; sourceTree = "<group>"; };
 		104290141F950D1900C67F26 /* Sort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sort.m; sourceTree = "<group>"; };
+		104290161F951CB300C67F26 /* PersonProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonProtocol.h; sourceTree = "<group>"; };
+		104290171F951CCC00C67F26 /* ActionProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActionProtocol.h; sourceTree = "<group>"; };
+		104290181F951D2100C67F26 /* PositivePerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PositivePerson.h; sourceTree = "<group>"; };
+		104290191F951D2100C67F26 /* PositivePerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PositivePerson.m; sourceTree = "<group>"; };
+		1042901B1F951D3C00C67F26 /* NegativePerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NegativePerson.h; sourceTree = "<group>"; };
+		1042901C1F951D3C00C67F26 /* NegativePerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NegativePerson.m; sourceTree = "<group>"; };
+		104964981F9522B500651EE2 /* HalfCupWater.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HalfCupWater.h; sourceTree = "<group>"; };
+		104964991F9522B500651EE2 /* HalfCupWater.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HalfCupWater.m; sourceTree = "<group>"; };
+		1049649B1F95234B00651EE2 /* ObjectStructure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectStructure.h; sourceTree = "<group>"; };
+		1049649C1F95234B00651EE2 /* ObjectStructure.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectStructure.m; sourceTree = "<group>"; };
 		104D30E31F5C5C740092D139 /* Humburger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Humburger.h; sourceTree = "<group>"; };
 		104D30E41F5C5CC30092D139 /* ChickenBurger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChickenBurger.h; sourceTree = "<group>"; };
 		104D30E51F5C5CC30092D139 /* ChickenBurger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChickenBurger.m; sourceTree = "<group>"; };
@@ -609,6 +623,16 @@
 		107938BA1F3B761F000F287A /* Visitor */ = {
 			isa = PBXGroup;
 			children = (
+				104290161F951CB300C67F26 /* PersonProtocol.h */,
+				104290181F951D2100C67F26 /* PositivePerson.h */,
+				104290191F951D2100C67F26 /* PositivePerson.m */,
+				1042901B1F951D3C00C67F26 /* NegativePerson.h */,
+				1042901C1F951D3C00C67F26 /* NegativePerson.m */,
+				104290171F951CCC00C67F26 /* ActionProtocol.h */,
+				104964981F9522B500651EE2 /* HalfCupWater.h */,
+				104964991F9522B500651EE2 /* HalfCupWater.m */,
+				1049649B1F95234B00651EE2 /* ObjectStructure.h */,
+				1049649C1F95234B00651EE2 /* ObjectStructure.m */,
 			);
 			path = Visitor;
 			sourceTree = "<group>";
@@ -704,12 +728,14 @@
 				109400481F42025E0026A0BB /* Singleton.m in Sources */,
 				104D30F61F5DB19F0092D139 /* FlyweightFactory.m in Sources */,
 				104D31041F619F8B0092D139 /* Manager.m in Sources */,
+				1042901D1F951D3C00C67F26 /* NegativePerson.m in Sources */,
 				10428FFD1F8FCB4300C67F26 /* JobProvider.m in Sources */,
 				10D385371F4497120095A417 /* YellowHuman.m in Sources */,
 				104D30F31F5DB1010092D139 /* Circle.m in Sources */,
 				104290121F95097700C67F26 /* QuickSortStrategy.m in Sources */,
 				10428FF31F8D22E800C67F26 /* Command.m in Sources */,
 				10D385351F4497120095A417 /* BlackHuman.m in Sources */,
+				1042901A1F951D2100C67F26 /* PositivePerson.m in Sources */,
 				10D385D31F4B2E890095A417 /* WoodDoorInstaller.m in Sources */,
 				104290081F94FE2300C67F26 /* EditorMemento.m in Sources */,
 				104FB0161F55CC7800085793 /* RedTheme.m in Sources */,
@@ -721,6 +747,7 @@
 				2473C0071F592BB20018E4A3 /* File.m in Sources */,
 				109400321F3CC4B70026A0BB /* Employee.m in Sources */,
 				2473C0041F592A910018E4A3 /* ImplementationFile.m in Sources */,
+				1049649A1F9522B500651EE2 /* HalfCupWater.m in Sources */,
 				104FB0121F55CBEB00085793 /* ChatModule.m in Sources */,
 				2473BFFF1F592A120018E4A3 /* HeaderFile.m in Sources */,
 				10D3853D1F4497260095A417 /* WhiteHumanFactory.m in Sources */,
@@ -735,6 +762,7 @@
 				10428FEA1F8D21CB00C67F26 /* Cook.m in Sources */,
 				104290051F8FD05700C67F26 /* JobHunter.m in Sources */,
 				10D385DC1F4B32870095A417 /* WoodDoorFactory.m in Sources */,
+				1049649D1F95234B00651EE2 /* ObjectStructure.m in Sources */,
 				10428FF71F8FC3AD00C67F26 /* ChatRoom.m in Sources */,
 				104D30EC1F5C5E290092D139 /* Chilli.m in Sources */,
 				1042900B1F94FEA800C67F26 /* Editor.m in Sources */,

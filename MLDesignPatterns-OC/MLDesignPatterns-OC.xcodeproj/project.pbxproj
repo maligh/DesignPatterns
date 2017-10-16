@@ -15,6 +15,8 @@
 		10428FFA1F8FC4A600C67F26 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 10428FF91F8FC4A600C67F26 /* User.m */; };
 		10428FFD1F8FCB4300C67F26 /* JobProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 10428FFC1F8FCB4300C67F26 /* JobProvider.m */; };
 		104290051F8FD05700C67F26 /* JobHunter.m in Sources */ = {isa = PBXBuildFile; fileRef = 104290041F8FD05700C67F26 /* JobHunter.m */; };
+		104290081F94FE2300C67F26 /* EditorMemento.m in Sources */ = {isa = PBXBuildFile; fileRef = 104290071F94FE2300C67F26 /* EditorMemento.m */; };
+		1042900B1F94FEA800C67F26 /* Editor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1042900A1F94FEA800C67F26 /* Editor.m */; };
 		104D30E61F5C5CC30092D139 /* ChickenBurger.m in Sources */ = {isa = PBXBuildFile; fileRef = 104D30E51F5C5CC30092D139 /* ChickenBurger.m */; };
 		104D30E91F5C5DA60092D139 /* Condiment.m in Sources */ = {isa = PBXBuildFile; fileRef = 104D30E81F5C5DA60092D139 /* Condiment.m */; };
 		104D30EC1F5C5E290092D139 /* Chilli.m in Sources */ = {isa = PBXBuildFile; fileRef = 104D30EB1F5C5E290092D139 /* Chilli.m */; };
@@ -104,6 +106,10 @@
 		104290021F8FCF3D00C67F26 /* SubjectProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubjectProtocol.h; sourceTree = "<group>"; };
 		104290031F8FD05700C67F26 /* JobHunter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JobHunter.h; sourceTree = "<group>"; };
 		104290041F8FD05700C67F26 /* JobHunter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JobHunter.m; sourceTree = "<group>"; };
+		104290061F94FE2300C67F26 /* EditorMemento.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditorMemento.h; sourceTree = "<group>"; };
+		104290071F94FE2300C67F26 /* EditorMemento.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditorMemento.m; sourceTree = "<group>"; };
+		104290091F94FEA800C67F26 /* Editor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Editor.h; sourceTree = "<group>"; };
+		1042900A1F94FEA800C67F26 /* Editor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Editor.m; sourceTree = "<group>"; };
 		104D30E31F5C5C740092D139 /* Humburger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Humburger.h; sourceTree = "<group>"; };
 		104D30E41F5C5CC30092D139 /* ChickenBurger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChickenBurger.h; sourceTree = "<group>"; };
 		104D30E51F5C5CC30092D139 /* ChickenBurger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChickenBurger.m; sourceTree = "<group>"; };
@@ -505,6 +511,10 @@
 		107938B21F3B761F000F287A /* Memento */ = {
 			isa = PBXGroup;
 			children = (
+				104290061F94FE2300C67F26 /* EditorMemento.h */,
+				104290071F94FE2300C67F26 /* EditorMemento.m */,
+				104290091F94FEA800C67F26 /* Editor.h */,
+				1042900A1F94FEA800C67F26 /* Editor.m */,
 			);
 			path = Memento;
 			sourceTree = "<group>";
@@ -681,6 +691,7 @@
 				10428FF31F8D22E800C67F26 /* Command.m in Sources */,
 				10D385351F4497120095A417 /* BlackHuman.m in Sources */,
 				10D385D31F4B2E890095A417 /* WoodDoorInstaller.m in Sources */,
+				104290081F94FE2300C67F26 /* EditorMemento.m in Sources */,
 				104FB0161F55CC7800085793 /* RedTheme.m in Sources */,
 				104FB00F1F55CBB800085793 /* MyModule.m in Sources */,
 				10D385C91F4B2DD20095A417 /* WoodDoor.m in Sources */,
@@ -706,6 +717,7 @@
 				10D385DC1F4B32870095A417 /* WoodDoorFactory.m in Sources */,
 				10428FF71F8FC3AD00C67F26 /* ChatRoom.m in Sources */,
 				104D30EC1F5C5E290092D139 /* Chilli.m in Sources */,
+				1042900B1F94FEA800C67F26 /* Editor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

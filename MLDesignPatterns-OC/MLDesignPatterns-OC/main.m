@@ -46,6 +46,8 @@
 #import "ChatRoom.h"
 #import "JobProvider.h"
 #import "JobHunter.h"
+#import "EditorMemento.h"
+#import "Editor.h"
 
 #warning 调用部分请见main方法
 
@@ -211,6 +213,19 @@ void observer() {
     [jobProvider notify];
 }
 
+void memento() {
+    Editor *editor = [[Editor alloc] init];
+    [editor insertContent:@"总熬夜会带来三个问题"];
+    [editor insertContent:@"第一:记忆力会明显下降"];
+    [editor insertContent:@"第二:数数经常会数错"];
+    EditorMemento *memento = [editor save];
+    [editor insertContent:@"第四:记忆力会明显下降"];
+    [editor echo];
+    NSLog(@"//------------------------------------");
+    [editor restore:memento];
+    [editor echo];
+}
+
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
@@ -228,7 +243,8 @@ int main(int argc, const char * argv[]) {
 //        chainOfResponsibility();
 //        command();
 //        mediator();
-        observer();
+//        observer();
+        memento();
     }
     return 0;
 }

@@ -7,7 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "PublishProtocol.h"
 
-@interface Publish : NSObject
+@interface Publish : NSObject<PublishProtocol>
+
+- (void)publish;
 
 @end

@@ -1,3 +1,4 @@
+
 //
 //  iOSPublish.m
 //  MLDesignPatterns-OC
@@ -9,5 +10,18 @@
 #import "iOSPublish.h"
 
 @implementation iOSPublish
+
+- (void)code {
+    NSLog(@"编写iOS代码");
+}
+- (void)test {
+    NSLog(@"测试iOS代码");
+}
+- (void)pack {
+    NSLog(@"xcode archive");
+}
+- (void)upload {
+    NSLog(@"上传到AppStore");
+}
 
 @end

@@ -10,4 +10,9 @@
 
 @protocol PublishProtocol <NSObject>
 
+- (void)code;
+- (void)test;
+- (void)pack;
+- (void)upload;
+
 @end

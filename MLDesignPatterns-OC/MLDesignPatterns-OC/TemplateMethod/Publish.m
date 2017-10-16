@@ -10,4 +10,21 @@
 
 @implementation Publish
 
+- (void)publish {
+    [self code];
+    [self test];
+    [self pack];
+    [self upload];
+}
+
+- (void)code {
+}
+- (void)test {
+}
+- (void)pack {
+}
+- (void)upload {
+}
+
+
 @end

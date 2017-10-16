@@ -75,6 +75,9 @@
 		10D385F21F4B42BD0095A417 /* TenYuanAbnormalSpicyBuild.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D385F11F4B42BD0095A417 /* TenYuanAbnormalSpicyBuild.m */; };
 		10D385F51F4B43A80095A417 /* Seller.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D385F41F4B43A80095A417 /* Seller.m */; };
 		10F84C4F1F8D1E5F00722C69 /* Waiter.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F84C4E1F8D1E5F00722C69 /* Waiter.m */; };
+		10FDC4011F9527D00083B82A /* Publish.m in Sources */ = {isa = PBXBuildFile; fileRef = 10FDC4001F9527D00083B82A /* Publish.m */; };
+		10FDC4051F9529500083B82A /* AndroidPublish.m in Sources */ = {isa = PBXBuildFile; fileRef = 10FDC4041F9529500083B82A /* AndroidPublish.m */; };
+		10FDC4081F95295A0083B82A /* iOSPublish.m in Sources */ = {isa = PBXBuildFile; fileRef = 10FDC4071F95295A0083B82A /* iOSPublish.m */; };
 		2473BFF91F59108D0018E4A3 /* Folder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2473BFF81F59108D0018E4A3 /* Folder.m */; };
 		2473BFFF1F592A120018E4A3 /* HeaderFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 2473BFFE1F592A120018E4A3 /* HeaderFile.m */; };
 		2473C0041F592A910018E4A3 /* ImplementationFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 2473C0031F592A910018E4A3 /* ImplementationFile.m */; };
@@ -247,6 +250,13 @@
 		10F84C4C1F8D1B5300722C69 /* CommandProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommandProtocol.h; sourceTree = "<group>"; };
 		10F84C4D1F8D1E5F00722C69 /* Waiter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Waiter.h; sourceTree = "<group>"; };
 		10F84C4E1F8D1E5F00722C69 /* Waiter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Waiter.m; sourceTree = "<group>"; };
+		10FDC3FF1F9527D00083B82A /* Publish.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Publish.h; sourceTree = "<group>"; };
+		10FDC4001F9527D00083B82A /* Publish.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Publish.m; sourceTree = "<group>"; };
+		10FDC4021F9528400083B82A /* PublishProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PublishProtocol.h; sourceTree = "<group>"; };
+		10FDC4031F9529500083B82A /* AndroidPublish.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AndroidPublish.h; sourceTree = "<group>"; };
+		10FDC4041F9529500083B82A /* AndroidPublish.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AndroidPublish.m; sourceTree = "<group>"; };
+		10FDC4061F95295A0083B82A /* iOSPublish.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSPublish.h; sourceTree = "<group>"; };
+		10FDC4071F95295A0083B82A /* iOSPublish.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSPublish.m; sourceTree = "<group>"; };
 		2473BFF61F590FB40018E4A3 /* FileSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileSystem.h; sourceTree = "<group>"; };
 		2473BFF71F59108D0018E4A3 /* Folder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Folder.h; sourceTree = "<group>"; };
 		2473BFF81F59108D0018E4A3 /* Folder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Folder.m; sourceTree = "<group>"; };
@@ -616,6 +626,13 @@
 		107938B91F3B761F000F287A /* TemplateMethod */ = {
 			isa = PBXGroup;
 			children = (
+				10FDC4021F9528400083B82A /* PublishProtocol.h */,
+				10FDC3FF1F9527D00083B82A /* Publish.h */,
+				10FDC4001F9527D00083B82A /* Publish.m */,
+				10FDC4061F95295A0083B82A /* iOSPublish.h */,
+				10FDC4071F95295A0083B82A /* iOSPublish.m */,
+				10FDC4031F9529500083B82A /* AndroidPublish.h */,
+				10FDC4041F9529500083B82A /* AndroidPublish.m */,
 			);
 			path = TemplateMethod;
 			sourceTree = "<group>";
@@ -696,6 +713,7 @@
 			files = (
 				10D385E81F4B3EA90095A417 /* HandWheatCake.m in Sources */,
 				104290151F950D1900C67F26 /* Sort.m in Sources */,
+				10FDC4081F95295A0083B82A /* iOSPublish.m in Sources */,
 				10D385DF1F4B32F70095A417 /* IronDoorFactory.m in Sources */,
 				10D385F51F4B43A80095A417 /* Seller.m in Sources */,
 				10D385F21F4B42BD0095A417 /* TenYuanAbnormalSpicyBuild.m in Sources */,
@@ -732,6 +750,7 @@
 				10428FFD1F8FCB4300C67F26 /* JobProvider.m in Sources */,
 				10D385371F4497120095A417 /* YellowHuman.m in Sources */,
 				104D30F31F5DB1010092D139 /* Circle.m in Sources */,
+				10FDC4011F9527D00083B82A /* Publish.m in Sources */,
 				104290121F95097700C67F26 /* QuickSortStrategy.m in Sources */,
 				10428FF31F8D22E800C67F26 /* Command.m in Sources */,
 				10D385351F4497120095A417 /* BlackHuman.m in Sources */,
@@ -764,6 +783,7 @@
 				10D385DC1F4B32870095A417 /* WoodDoorFactory.m in Sources */,
 				1049649D1F95234B00651EE2 /* ObjectStructure.m in Sources */,
 				10428FF71F8FC3AD00C67F26 /* ChatRoom.m in Sources */,
+				10FDC4051F9529500083B82A /* AndroidPublish.m in Sources */,
 				104D30EC1F5C5E290092D139 /* Chilli.m in Sources */,
 				1042900B1F94FEA800C67F26 /* Editor.m in Sources */,
 			);

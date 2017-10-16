@@ -53,6 +53,8 @@
 #import "NegativePerson.h"
 #import "PositivePerson.h"
 #import "HalfCupWater.h"
+#import "iOSPublish.h"
+#import "AndroidPublish.h"
 
 #warning 调用部分请见main方法
 
@@ -246,6 +248,14 @@ void visitor() {
     [structure echo:action];
 }
 
+void templateMethod() {
+    iOSPublish *iOS = [[iOSPublish alloc] init];
+    [iOS publish];
+    NSLog(@"---------我是华丽丽的分割线------------");
+    AndroidPublish *android = [[AndroidPublish alloc] init];
+    [android publish];
+}
+
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
@@ -267,6 +277,7 @@ int main(int argc, const char * argv[]) {
 //        memento();
 //        strategy();
 //        visitor();
+        templateMethod();
     }
     return 0;
 }

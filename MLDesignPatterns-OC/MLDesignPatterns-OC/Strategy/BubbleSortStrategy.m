@@ -10,4 +10,8 @@
 
 @implementation BubbleSortStrategy
 
++ (void)sort:(NSArray *)array {
+    NSLog(@"Array's count=%ld, 使用了冒泡排序", array.count);
+}
+
 @end

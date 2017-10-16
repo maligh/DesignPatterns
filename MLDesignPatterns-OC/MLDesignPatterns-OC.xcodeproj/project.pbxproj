@@ -17,6 +17,9 @@
 		104290051F8FD05700C67F26 /* JobHunter.m in Sources */ = {isa = PBXBuildFile; fileRef = 104290041F8FD05700C67F26 /* JobHunter.m */; };
 		104290081F94FE2300C67F26 /* EditorMemento.m in Sources */ = {isa = PBXBuildFile; fileRef = 104290071F94FE2300C67F26 /* EditorMemento.m */; };
 		1042900B1F94FEA800C67F26 /* Editor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1042900A1F94FEA800C67F26 /* Editor.m */; };
+		1042900F1F95096B00C67F26 /* BubbleSortStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1042900E1F95096B00C67F26 /* BubbleSortStrategy.m */; };
+		104290121F95097700C67F26 /* QuickSortStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 104290111F95097700C67F26 /* QuickSortStrategy.m */; };
+		104290151F950D1900C67F26 /* Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = 104290141F950D1900C67F26 /* Sort.m */; };
 		104D30E61F5C5CC30092D139 /* ChickenBurger.m in Sources */ = {isa = PBXBuildFile; fileRef = 104D30E51F5C5CC30092D139 /* ChickenBurger.m */; };
 		104D30E91F5C5DA60092D139 /* Condiment.m in Sources */ = {isa = PBXBuildFile; fileRef = 104D30E81F5C5DA60092D139 /* Condiment.m */; };
 		104D30EC1F5C5E290092D139 /* Chilli.m in Sources */ = {isa = PBXBuildFile; fileRef = 104D30EB1F5C5E290092D139 /* Chilli.m */; };
@@ -110,6 +113,13 @@
 		104290071F94FE2300C67F26 /* EditorMemento.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditorMemento.m; sourceTree = "<group>"; };
 		104290091F94FEA800C67F26 /* Editor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Editor.h; sourceTree = "<group>"; };
 		1042900A1F94FEA800C67F26 /* Editor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Editor.m; sourceTree = "<group>"; };
+		1042900C1F95091400C67F26 /* StrategyProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StrategyProtocol.h; sourceTree = "<group>"; };
+		1042900D1F95096B00C67F26 /* BubbleSortStrategy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BubbleSortStrategy.h; sourceTree = "<group>"; };
+		1042900E1F95096B00C67F26 /* BubbleSortStrategy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BubbleSortStrategy.m; sourceTree = "<group>"; };
+		104290101F95097700C67F26 /* QuickSortStrategy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickSortStrategy.h; sourceTree = "<group>"; };
+		104290111F95097700C67F26 /* QuickSortStrategy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuickSortStrategy.m; sourceTree = "<group>"; };
+		104290131F950D1900C67F26 /* Sort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sort.h; sourceTree = "<group>"; };
+		104290141F950D1900C67F26 /* Sort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sort.m; sourceTree = "<group>"; };
 		104D30E31F5C5C740092D139 /* Humburger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Humburger.h; sourceTree = "<group>"; };
 		104D30E41F5C5CC30092D139 /* ChickenBurger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChickenBurger.h; sourceTree = "<group>"; };
 		104D30E51F5C5CC30092D139 /* ChickenBurger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChickenBurger.m; sourceTree = "<group>"; };
@@ -578,6 +588,13 @@
 		107938B81F3B761F000F287A /* Strategy */ = {
 			isa = PBXGroup;
 			children = (
+				1042900C1F95091400C67F26 /* StrategyProtocol.h */,
+				1042900D1F95096B00C67F26 /* BubbleSortStrategy.h */,
+				1042900E1F95096B00C67F26 /* BubbleSortStrategy.m */,
+				104290101F95097700C67F26 /* QuickSortStrategy.h */,
+				104290111F95097700C67F26 /* QuickSortStrategy.m */,
+				104290131F950D1900C67F26 /* Sort.h */,
+				104290141F950D1900C67F26 /* Sort.m */,
 			);
 			path = Strategy;
 			sourceTree = "<group>";
@@ -654,6 +671,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				10D385E81F4B3EA90095A417 /* HandWheatCake.m in Sources */,
+				104290151F950D1900C67F26 /* Sort.m in Sources */,
 				10D385DF1F4B32F70095A417 /* IronDoorFactory.m in Sources */,
 				10D385F51F4B43A80095A417 /* Seller.m in Sources */,
 				10D385F21F4B42BD0095A417 /* TenYuanAbnormalSpicyBuild.m in Sources */,
@@ -665,6 +683,7 @@
 				10F84C4F1F8D1E5F00722C69 /* Waiter.m in Sources */,
 				1079389D1F3B7529000F287A /* main.m in Sources */,
 				10428FED1F8D224100C67F26 /* LobsterCommand.m in Sources */,
+				1042900F1F95096B00C67F26 /* BubbleSortStrategy.m in Sources */,
 				104FB01C1F55CDC200085793 /* Module.m in Sources */,
 				109400351F3CC62E0026A0BB /* Company.m in Sources */,
 				10D385D61F4B2E950095A417 /* IronDoorInstaller.m in Sources */,
@@ -688,6 +707,7 @@
 				10428FFD1F8FCB4300C67F26 /* JobProvider.m in Sources */,
 				10D385371F4497120095A417 /* YellowHuman.m in Sources */,
 				104D30F31F5DB1010092D139 /* Circle.m in Sources */,
+				104290121F95097700C67F26 /* QuickSortStrategy.m in Sources */,
 				10428FF31F8D22E800C67F26 /* Command.m in Sources */,
 				10D385351F4497120095A417 /* BlackHuman.m in Sources */,
 				10D385D31F4B2E890095A417 /* WoodDoorInstaller.m in Sources */,

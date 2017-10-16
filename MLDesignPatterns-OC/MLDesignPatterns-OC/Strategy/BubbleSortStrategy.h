@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "StrategyProtocol.h"
 
-@interface BubbleSortStrategy : NSObject
+@interface BubbleSortStrategy : NSObject<StrategyProtocol>
 
 @end

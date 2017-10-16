@@ -7,7 +7,17 @@
 //
 
 #import "Sort.h"
+#import "BubbleSortStrategy.h"
+#import "QuickSortStrategy.h"
 
 @implementation Sort
+
++ (void)sort:(NSArray *)array {
+    if (array.count > 5) {
+        [QuickSortStrategy sort:array];
+    } else {
+        [BubbleSortStrategy sort:array];
+    }
+}
 
 @end

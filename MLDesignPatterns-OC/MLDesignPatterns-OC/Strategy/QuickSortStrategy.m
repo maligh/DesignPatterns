@@ -10,4 +10,8 @@
 
 @implementation QuickSortStrategy
 
++ (void)sort:(NSArray *)array {
+    NSLog(@"Array's count=%ld, 使用了快速排序", array.count);
+}
+
 @end

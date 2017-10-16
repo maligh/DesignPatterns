@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "StrategyProtocol.h"
 
-@interface QuickSortStrategy : NSObject
+@interface QuickSortStrategy : NSObject<StrategyProtocol>
 
 @end

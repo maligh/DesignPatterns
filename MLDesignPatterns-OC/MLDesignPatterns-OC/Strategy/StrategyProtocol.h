@@ -10,4 +10,6 @@
 
 @protocol StrategyProtocol <NSObject>
 
++ (void)sort:(NSArray *)array;
+
 @end

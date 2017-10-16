@@ -48,6 +48,7 @@
 #import "JobHunter.h"
 #import "EditorMemento.h"
 #import "Editor.h"
+#import "Sort.h"
 
 #warning 调用部分请见main方法
 
@@ -226,6 +227,13 @@ void memento() {
     [editor echo];
 }
 
+void strategy() {
+    NSArray *array = @[@"1", @"44", @"3"];
+    NSArray *largeArray = @[@"1", @"44", @"3", @"12", @"424", @"33", @"145", @"544", @"36", @"17", @"844", @"38"];
+    [Sort sort:array];
+    [Sort sort:largeArray];
+}
+
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
@@ -244,7 +252,8 @@ int main(int argc, const char * argv[]) {
 //        command();
 //        mediator();
 //        observer();
-        memento();
+//        memento();
+//        strategy();
     }
     return 0;
 }

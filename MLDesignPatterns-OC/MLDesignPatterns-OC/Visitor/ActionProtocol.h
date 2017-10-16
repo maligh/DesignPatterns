@@ -7,7 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+@protocol PersonProtocol;
 
 @protocol ActionProtocol <NSObject>
+
+- (void)positiveConclusion:(id <PersonProtocol>)positive;
+- (void)negativeConclusion:(id <PersonProtocol>)negavite;
 
 @end

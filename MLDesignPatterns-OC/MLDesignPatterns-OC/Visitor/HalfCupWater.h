@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "ActionProtocol.h"
 
-@interface HalfCupWater : NSObject
+@interface HalfCupWater : NSObject<ActionProtocol>
 
 @end

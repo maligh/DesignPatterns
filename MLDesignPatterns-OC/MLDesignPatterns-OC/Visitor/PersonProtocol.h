@@ -7,7 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "ActionProtocol.h"
 
 @protocol PersonProtocol <NSObject>
+
+- (void)accept:(id <ActionProtocol>)visitor;
 
 @end

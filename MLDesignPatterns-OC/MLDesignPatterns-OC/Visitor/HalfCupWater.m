@@ -10,4 +10,11 @@
 
 @implementation HalfCupWater
 
+- (void)positiveConclusion:(id <PersonProtocol>)positive {
+    NSLog(@"乐观的人:还有半杯水可以喝");
+}
+- (void)negativeConclusion:(id <PersonProtocol>)negavite {
+    NSLog(@"悲观的人:只剩半杯水了啊");
+}
+
 @end

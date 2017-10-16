@@ -1,5 +1,5 @@
 //
-//  Positive.h
+//  PositivePerson.h
 //  MLDesignPatterns-OC
 //
 //  Created by mjpc on 2017/10/17.

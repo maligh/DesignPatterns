@@ -1,5 +1,5 @@
 //
-//  Negative.m
+//  NegativePerson.m
 //  MLDesignPatterns-OC
 //
 //  Created by mjpc on 2017/10/17.
@@ -9,5 +9,9 @@
 #import "NegativePerson.h"
 
 @implementation NegativePerson
+
+- (void)accept:(id <ActionProtocol>)visitor {
+    [visitor negativeConclusion:[[NegativePerson alloc] init]];
+}
 
 @end

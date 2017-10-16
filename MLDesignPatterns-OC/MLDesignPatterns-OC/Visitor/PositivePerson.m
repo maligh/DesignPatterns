@@ -1,5 +1,5 @@
 //
-//  Positive.m
+//  PositivePerson.m
 //  MLDesignPatterns-OC
 //
 //  Created by mjpc on 2017/10/17.
@@ -10,8 +10,8 @@
 
 @implementation PositivePerson
 
-+ (void)accept:(id <ActionProtocol>)visitor {
-    
+- (void)accept:(id <ActionProtocol>)visitor {
+    [visitor positiveConclusion:[[PositivePerson alloc] init]];
 }
 
 @end

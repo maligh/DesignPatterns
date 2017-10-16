@@ -1,5 +1,5 @@
 //
-//  Negative.h
+//  NegativePerson.h
 //  MLDesignPatterns-OC
 //
 //  Created by mjpc on 2017/10/17.

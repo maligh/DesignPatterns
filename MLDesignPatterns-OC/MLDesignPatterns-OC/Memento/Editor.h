@@ -8,6 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
+@class EditorMemento;
 @interface Editor : NSObject
+
+- (void)insertContent:(NSString *)string;
+- (EditorMemento *)save;
+- (void)echo;
+- (void)restore:(EditorMemento *)memento;
 
 @end

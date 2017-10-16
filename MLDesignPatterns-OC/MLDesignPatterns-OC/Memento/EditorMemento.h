@@ -10,4 +10,7 @@
 
 @interface EditorMemento : NSObject
 
+@property (nonatomic, copy, readonly) NSArray *array;
+- (instancetype)initWithArray:(NSArray *)array;
+
 @end

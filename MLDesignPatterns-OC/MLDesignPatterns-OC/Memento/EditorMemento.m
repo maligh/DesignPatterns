@@ -10,4 +10,11 @@
 
 @implementation EditorMemento
 
+- (instancetype)initWithArray:(NSArray *)array {
+    if (self = [super init]) {
+        _array = array;
+    }
+    return self;
+}
+
 @end

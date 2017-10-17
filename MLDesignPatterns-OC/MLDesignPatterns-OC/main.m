@@ -55,6 +55,10 @@
 #import "HalfCupWater.h"
 #import "iOSPublish.h"
 #import "AndroidPublish.h"
+#import "TextEditor.h"
+#import "BallPen.h"
+#import "Pen.h"
+#import "WritingBrush.h"
 
 #warning 调用部分请见main方法
 
@@ -256,6 +260,15 @@ void templateMethod() {
     [android publish];
 }
 
+void state() {
+    TextEditor *editor = [[TextEditor alloc] initWithState:[[BallPen alloc] init]];
+    [editor echo:@"硅谷来信第三封:再谈1W小时，三板斧破四困境"];
+    editor.state = [[Pen alloc] init];
+    [editor echo:@"学习-实践"];
+    editor.state = [[WritingBrush alloc] init];
+    [editor echo:@"掌握-教授"];
+}
+
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
@@ -277,7 +290,8 @@ int main(int argc, const char * argv[]) {
 //        memento();
 //        strategy();
 //        visitor();
-        templateMethod();
+//        templateMethod();
+        state();
     }
     return 0;
 }

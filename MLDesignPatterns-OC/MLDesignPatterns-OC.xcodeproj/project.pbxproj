@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		101484F61F965E6E00D41236 /* BallPen.m in Sources */ = {isa = PBXBuildFile; fileRef = 101484F51F965E6E00D41236 /* BallPen.m */; };
+		101484F91F965EA800D41236 /* Pen.m in Sources */ = {isa = PBXBuildFile; fileRef = 101484F81F965EA800D41236 /* Pen.m */; };
+		101484FC1F965EBF00D41236 /* WritingBrush.m in Sources */ = {isa = PBXBuildFile; fileRef = 101484FB1F965EBF00D41236 /* WritingBrush.m */; };
+		101484FF1F965F4800D41236 /* TextEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 101484FE1F965F4800D41236 /* TextEditor.m */; };
 		10428FEA1F8D21CB00C67F26 /* Cook.m in Sources */ = {isa = PBXBuildFile; fileRef = 10428FE91F8D21CB00C67F26 /* Cook.m */; };
 		10428FED1F8D224100C67F26 /* LobsterCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 10428FEC1F8D224100C67F26 /* LobsterCommand.m */; };
 		10428FF01F8D225A00C67F26 /* AbaloneCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 10428FEF1F8D225A00C67F26 /* AbaloneCommand.m */; };
@@ -97,6 +101,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		101484F31F965D9800D41236 /* DrawProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawProtocol.h; sourceTree = "<group>"; };
+		101484F41F965E6E00D41236 /* BallPen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BallPen.h; sourceTree = "<group>"; };
+		101484F51F965E6E00D41236 /* BallPen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BallPen.m; sourceTree = "<group>"; };
+		101484F71F965EA800D41236 /* Pen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pen.h; sourceTree = "<group>"; };
+		101484F81F965EA800D41236 /* Pen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pen.m; sourceTree = "<group>"; };
+		101484FA1F965EBF00D41236 /* WritingBrush.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WritingBrush.h; sourceTree = "<group>"; };
+		101484FB1F965EBF00D41236 /* WritingBrush.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WritingBrush.m; sourceTree = "<group>"; };
+		101484FD1F965F4800D41236 /* TextEditor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextEditor.h; sourceTree = "<group>"; };
+		101484FE1F965F4800D41236 /* TextEditor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextEditor.m; sourceTree = "<group>"; };
 		10428FE81F8D21CB00C67F26 /* Cook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cook.h; sourceTree = "<group>"; };
 		10428FE91F8D21CB00C67F26 /* Cook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cook.m; sourceTree = "<group>"; };
 		10428FEB1F8D224100C67F26 /* LobsterCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LobsterCommand.h; sourceTree = "<group>"; };
@@ -605,6 +618,15 @@
 		107938B71F3B761F000F287A /* State */ = {
 			isa = PBXGroup;
 			children = (
+				101484F31F965D9800D41236 /* DrawProtocol.h */,
+				101484F41F965E6E00D41236 /* BallPen.h */,
+				101484F51F965E6E00D41236 /* BallPen.m */,
+				101484F71F965EA800D41236 /* Pen.h */,
+				101484F81F965EA800D41236 /* Pen.m */,
+				101484FA1F965EBF00D41236 /* WritingBrush.h */,
+				101484FB1F965EBF00D41236 /* WritingBrush.m */,
+				101484FD1F965F4800D41236 /* TextEditor.h */,
+				101484FE1F965F4800D41236 /* TextEditor.m */,
 			);
 			path = State;
 			sourceTree = "<group>";
@@ -734,6 +756,7 @@
 				104FB0081F55C07C00085793 /* Translator.m in Sources */,
 				104FB02A1F599A6000085793 /* Curtain.m in Sources */,
 				104D30EF1F5C5FB00092D139 /* Egg.m in Sources */,
+				101484FC1F965EBF00D41236 /* WritingBrush.m in Sources */,
 				109400381F41DF430026A0BB /* EmployeeDeepCopy.m in Sources */,
 				104D30FA1F5DBAB70092D139 /* TrainStation.m in Sources */,
 				104FB0241F599A2F00085793 /* HouseManager.m in Sources */,
@@ -749,8 +772,10 @@
 				1042901D1F951D3C00C67F26 /* NegativePerson.m in Sources */,
 				10428FFD1F8FCB4300C67F26 /* JobProvider.m in Sources */,
 				10D385371F4497120095A417 /* YellowHuman.m in Sources */,
+				101484F61F965E6E00D41236 /* BallPen.m in Sources */,
 				104D30F31F5DB1010092D139 /* Circle.m in Sources */,
 				10FDC4011F9527D00083B82A /* Publish.m in Sources */,
+				101484FF1F965F4800D41236 /* TextEditor.m in Sources */,
 				104290121F95097700C67F26 /* QuickSortStrategy.m in Sources */,
 				10428FF31F8D22E800C67F26 /* Command.m in Sources */,
 				10D385351F4497120095A417 /* BlackHuman.m in Sources */,
@@ -765,6 +790,7 @@
 				10428FFA1F8FC4A600C67F26 /* User.m in Sources */,
 				2473C0071F592BB20018E4A3 /* File.m in Sources */,
 				109400321F3CC4B70026A0BB /* Employee.m in Sources */,
+				101484F91F965EA800D41236 /* Pen.m in Sources */,
 				2473C0041F592A910018E4A3 /* ImplementationFile.m in Sources */,
 				1049649A1F9522B500651EE2 /* HalfCupWater.m in Sources */,
 				104FB0121F55CBEB00085793 /* ChatModule.m in Sources */,

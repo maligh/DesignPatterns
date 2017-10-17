@@ -7,7 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "DrawProtocol.h"
 
 @interface TextEditor : NSObject
+
+@property (nonatomic, strong) id <DrawProtocol> state;
+
+- (instancetype)initWithState:(id <DrawProtocol>)state;
+
+- (void)echo:(NSString *)content;
+
+
 
 @end

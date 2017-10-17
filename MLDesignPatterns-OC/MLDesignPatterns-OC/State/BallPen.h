@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "DrawProtocol.h"
 
-@interface BallPen : NSObject
+@interface BallPen : NSObject<DrawProtocol>
 
 @end

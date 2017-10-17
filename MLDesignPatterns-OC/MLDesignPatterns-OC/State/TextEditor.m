@@ -10,4 +10,16 @@
 
 @implementation TextEditor
 
+- (instancetype)initWithState:(id)state {
+    if (self = [super init]) {
+        self.state = state;
+    }
+    return self;
+}
+
+- (void)echo:(NSString *)content {
+    [self.state drawContent:content];
+}
+
+
 @end

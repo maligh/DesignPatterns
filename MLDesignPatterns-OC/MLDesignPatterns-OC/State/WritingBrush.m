@@ -10,4 +10,8 @@
 
 @implementation WritingBrush
 
+- (void)drawContent:(NSString *)string {
+    NSLog(@"用毛笔书写了:%@", string);
+}
+
 @end

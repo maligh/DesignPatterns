@@ -10,4 +10,8 @@
 
 @implementation BallPen
 
+- (void)drawContent:(NSString *)string {
+    NSLog(@"用圆珠笔书写了:%@", string);
+}
+
 @end

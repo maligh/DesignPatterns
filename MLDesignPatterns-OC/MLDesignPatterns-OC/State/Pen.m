@@ -10,4 +10,8 @@
 
 @implementation Pen
 
+- (void)drawContent:(NSString *)string {
+    NSLog(@"用钢笔书写了:%@", string);
+}
+
 @end

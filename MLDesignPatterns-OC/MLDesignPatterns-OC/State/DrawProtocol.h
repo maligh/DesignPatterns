@@ -10,4 +10,6 @@
 
 @protocol DrawProtocol <NSObject>
 
+- (void)drawContent:(NSString *)string;
+
 @end

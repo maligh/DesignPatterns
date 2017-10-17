@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "DrawProtocol.h"
 
-@interface WritingBrush : NSObject
+@interface WritingBrush : NSObject<DrawProtocol>
 
 @end

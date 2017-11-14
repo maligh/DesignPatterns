@@ -60,7 +60,7 @@
 #import "Pen.h"
 #import "WritingBrush.h"
 
-#warning 调用部分请见main方法
+#warning Please look at the main method to debug.
 
 void factoryMethod() {
     [NuWa someMagic];
@@ -291,7 +291,7 @@ int main(int argc, const char * argv[]) {
 //        strategy();
 //        visitor();
 //        templateMethod();
-        state();
+//        state();
     }
     return 0;
 }
